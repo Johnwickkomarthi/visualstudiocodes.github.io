@@ -15,5 +15,9 @@
     
   }
   .card {
-    background-color: lightblue;
+    
+    background-image: url("https://img.freepik.com/free-photo/image-engineering-objects-workplace-top-view-construction-concept-engineering-tools-vintage-tone-retro-filter-effect-soft-focus-selective-focus_1418-704.jpg?w=996&t=st=1662640916~exp=1662641516~hmac=937b2bee5dc948a2849da1804e84dc69ce375edff76d32187cd0d3a62d50a298");
+    height: 100vh; /*this will make the image height to fit the entire window height*/
+    background-size: cover;/* images have fixed size so they don't fit to the size of the screen size if we don't make them to cover, then the image will fill the remaining gap with repetative images */ 
+    width: 100vw;/*this will make the image width fit to the enitr window width*/
   }
