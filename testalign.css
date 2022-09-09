@@ -1,5 +1,13 @@
 .h-c{
     text-align: center;
+    background-color:aqua;
+    border-style: dashed;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    padding:5px;
+    height: 400px;
+    width: 1100px;
+    margin-left: 150px;
 }
 .main-heading {
     color: blue;
@@ -13,6 +21,15 @@
     color: grey;
     font-style: italic;
     
+  }
+  .button
+  {
+    height: 36px;
+    width: 138px;
+    background-color: blueviolet;
+    border-radius: 25px;
+    border-width: 0px;
+    color: brown;
   }
   .card {
     
