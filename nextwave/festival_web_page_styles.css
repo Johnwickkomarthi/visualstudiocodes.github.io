@@ -1,16 +1,16 @@
 .backgroung-top-section
 {
-    background-image: url("https://us.123rf.com/450wm/irinaqiwi/irinaqiwi1709/irinaqiwi170900625/85643809-diwali-festival-poster-diwali-holiday-shiny-background-with-diya-lamps-and-rangoli-vector-illustrati.jpg?ver=6");
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/diwali-bg.png");
     background-size: cover;
     height:30vh;
 }
 
 .top_section_heading{
     color:white;
-    font-family: "caviet";
+    font-family: "Caveat";
     font-size: 32px;
-    padding-top: 30px;
-    padding-left: 30px;
+    padding-top: 90px;
+    padding-left: 20px;
     font-style: italic;
     width: 50vh;
 }
@@ -18,13 +18,15 @@
 .bottom_section{
     background-color: #e6f6ff;
     padding: 20px;
+    text-align: center;
 }
 
 .card_iteam{
     background-color: white;
-    width:150px;
+    width:170px;
     border-radius: 10px;
     text-align: center;
+    margin: 10px;
 }
 
 .card_image{
@@ -36,4 +38,8 @@
 .card_heading{
     font-family: "Arial";
     padding: 5px;
+}
+
+.card-button{
+    padding: 15px;
 }
