@@ -11,6 +11,7 @@
   font-family: "Roboto";
   font-size: 28px;
   font-weight: bold;
+  text-align: center;
 }
 .favourite-place-card-container {
   background-color: white;
@@ -35,4 +36,13 @@
 }
 .favourite-place-card-text-container {
   margin-right: 15px;
+}
+
+.button {
+  color: white;
+  background-color: #25b1cc;
+  width: 138px;
+  height: 36px;
+  border-width: 0px;
+  border-radius: 20px;
 }

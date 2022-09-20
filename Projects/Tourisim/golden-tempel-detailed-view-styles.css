@@ -4,6 +4,7 @@
   background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/seabg.png");
   height: 100vh;
   background-size: cover;
+  text-align: center;
 }
 .detailed-view-heading {
   color: white;
@@ -31,4 +32,17 @@
 }
 .detailed-view-card-text-container {
   padding: 16px;
+}
+
+.button {
+  color: white;
+  background-color: #25b1cc;
+  width: 138px;
+  height: 36px;
+  border-width: 0px;
+  border-radius: 20px;
+}
+
+.cssbutton {
+  margin: 1rem;
 }
