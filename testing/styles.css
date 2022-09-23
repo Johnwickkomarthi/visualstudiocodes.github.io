@@ -193,7 +193,7 @@ header{
     display: flex;
     flex-direction: column;
     gap: 1.2rem;
-    font-size: 1.2rem;
+    font-size: 2.5rem;
 }
 
 .header_socials a{
@@ -215,12 +215,91 @@ header{
     bottom: -30rem;
 }
 
+
 .header_image{
-width: 82%;
-position: absolute;
-bottom: -1rem;
-z-index: 1;
+    width: 82%;
+    position: relative;
+    bottom: -1rem;
+    z-index: 1;
+    }
+
+    /*=============HEADER=================*/
+
+
+
+
+
+     /*=============SKILLS=================*/
+section#skills{
+    margin-top: 8rem;
+
 }
+
+.skills_container{
+    display: grid;
+    grid-template-columns: 25% auto;
+    gap:2rem;
+}
+.skills_left{
+    background: var(--color-primary);
+    padding: 2rem;
+    color: var(--color-light);
+}
+
+.skills_left h1{
+    font-size: 5rem;
+    font-weight: 600;
+    color: var(--color-white);
+}
+
+.skills_right h2{
+    margin-bottom: 2rem;
+}
+.skills_cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.skills_card{
+    background: var(--color-light);
+    padding: 4rem 2rem;
+    cursor: default;
+    transition: all 400ms ease;
+}
+
+.skills_card:hover{
+    background: var(--color-primary);
+    color: var(--color-white);
+}
+
+.skills_card:hover *
+{
+    color: var(--color-white);
+    transition: all 400ms ease;
+}
+
+.skills_card-icon{
+    font-size: 2rem;
+}
+.skills_card h5{
+    margin: 1rem 0;
+}
+
+.skills_card:hover a{
+    margin-left: 1rem;
+}
+
+ /*===========SKILLS=================*/
+
+
+
+
+
+
+
+
+
+
 
 
 
