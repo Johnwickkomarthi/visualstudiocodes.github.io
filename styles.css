@@ -294,6 +294,31 @@ section#skills{
 
 
 
+/*===========portfolio=================*/
+
+#portifolio{
+    background: var(--color-light);
+}
+.portifolio_head{
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+}
+
+.portifolio_head h3{
+    width: 25%;
+}
+
+.portifolio_head-right{
+    width: 49%;
+}
+
+.portifolio_projects{
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
 
 
 
@@ -307,6 +332,7 @@ section#skills{
 
 
 
+/*===========portfolio=================*/
 
 
 
