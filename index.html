@@ -1,87 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Matta Saikiran</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
-    <link rel="stylesheet" href="resumestyle.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-</head>
-<body>
-    <!-- Navbar -->
-    <header>
-        <a href="#" class="csslogo">Matta Saikiran</a>
-
-        <ul class="cssnavbar">
-            <li><a class="header-button" href="#home">Home</a></li>
-            <li><a class="header-button" href="#aboutme">About</a></li>
-            <li><a class="header-button" href="#myskills">Skills</a></li>
-            <li><a class="header-button" href="#myprojects">Projects</a></li>
-            <li><a class="header-button" href="#contact_form">Contact</a></li>
-            <li><div class="bx bx-moon"></div></li>
-        </ul>
-    </header>
-
-    <!-- Home -->
-    <section class="home" id="home">
-        <div class="social">
-            <a href="https://github.com/Johnwickkomarthi/Myjavaprograms"><i class='bx bxl-github'></i></a>
-        </div>
-
-        <div class="home-text">
-            <span>Hello, I'm</span>
-            <h1 class="heading-name">Matta Saikiran</h1>
-            <span>I am an undergraduate</span>
-            <p class="para-home">I have completed my graduation in Jul-2022.</p>
-            <a href="#contact" class="contact-me">Contact Me</a>
+        <head>
+            <!-- boxicons link-->
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+            <link rel="stylesheet" href="styles.css">
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Saikiran Matta</title>
+            <!-- google fonts-->
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+        </head>
+        <body>
 
 
 
 
 
-            <div class="container">
-                <div class="top-section">
-                    <h1>Educational Background</h1>
-                    <p> I am very entusiatic to learn</p>
+
+
+
+            <!-- =================== NAVBAR==================-->
+            <nav >
+                <div class="container nav_container">
+                    <a href="index.html" class="nav_logo">
+                        <h3><i class='bx bx-laptop'></i></h3>
+                    </a>
+                    <ul class="nav_menu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#portifolio">Projects</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#contact">Contact me</a></li>
+                        <li> <a href="images/personal/saikiranmatta software.docx" class="btn btn-primary" download><i class='bx bx-download'></i>Download CV</a></li>
+                    </ul>
+                    <button id="open-menu-btn"><i class='bx bx-menu'></i></button>
+                    <button id="close-menu-btn"><i class='bx bx-x'></i></button>
                 </div>
-        
-                <div class="timeline">
-                    <div class="line"></div>
-                    <div class="section">
-                        <div class="bead"></div>
-                        <div class="content">
-                            <h2>Sarada High School</h2>
-                            <p>I had completed my secondary school education in the sarada high school and got a gold medal in the year 2016.</p>
+            </nav>
+            <!-- =================== END NAVBAR==================-->
+
+
+
+
+
+
+
+
+
+
+            <!-- =================== HEADER ==================-->
+            <header>
+                <div class="container header_container">
+                    <div class="header_left">
+                    <div>
+                            <h3>Hello there I'm</h3>
+                            <h1>Matta<br>Saikiran</h1>
+                            <p>
+                                I'm an under-graduate and I'm very hungry to learn the skills that transform the future. 
+                            </p>
+                            <a href="#contact"class=" btn btn-primary btn-lg">Get in touch</a>
+                    </div>
+                    </div>
+
+
+                    <div class="header_right">
+                        <div class="header_image">
+                            <!-- profile pic to be inserted-->
+                            <img src="Images/personal/profile.jpg">
+                        </div>
+                        <div class="header_right-bg"></div>
+                        <ul class="header_socials">
+                            <li><a href="https://www.linkedin.com/in/saikiran-matta-7a41771b3" target="_blank"> <i class='bx bxl-linkedin'></i> </a></li>
+                            <li><a href="https://github.com/Johnwickkomarthi/Myjavaprograms/commits?author=Johnwickkomarthi" target="_blank"> <i class='bx bxl-github'></i> </a></li>
+                            <li><a href="https://instagram.com/m_s_kiran07?igshid=YmMyMTA2M2Y=" target="_blank"><i class='bx bxl-instagram'></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </header>
+
+            <!-- =================== END HEADER ==================-->
+
+
+
+
+
+
+
+
+
+
+            <!-- =================== SKILLS ==================-->
+
+            <section id="skills">
+                <div class="container skills_container">
+
+
+                    <div class="skills_left">
+                        <h1>Skills</h1>
+                        <small>
+                            I'm very hungry to learn and improve myself consistently. 
+                        </small>
+                    </div>
+
+                    <div class="skills_right">
+                        <h2>
+                            Under-Graduate with the skill set of HTML, CSS, JAVA.
+                        </h2>
+                        <div class="skills_cards">
+
+
+                            <div class="skills_card">
+                                <span class="skills_card-icon"><i class='bx bxl-html5'></i></span>
+                                <h5>HTML 5</h5>
+                                <a href="">Certificate <i class='bx bx-right-arrow-alt'></i></a>
+                            </div>
+
+                            <div class="skills_card">
+                                <span class="skills_card-icon"><i class='bx bxl-css3'></i></span>
+                                <h5>CSS 3</h5>
+                                <a href="">Certificate <i class='bx bx-right-arrow-alt'></i></a>
+                            </div>
+
+                            <div class="skills_card">
+                                <span class="skills_card-icon"><i class='bx bxl-java' ></i></span>
+                                <h5>JAVA</h5>
+                                <a href="https://drive.google.com/file/d/1iKS7YNsSwjJdHtld3pokDLvOOnnVpeQT/view" target="_blank">Certificate <i class='bx bx-right-arrow-alt'></i></a>
+                            </div>
+                            
+
                         </div>
                     </div>
-        
-        
-                    <div class="section">
-                        <div class="bead"></div>
-                        <div class="content">
-                            <h2>Diploma</h2>
-                            <p>I had completed my Diploma in Government Polytechnic Srikakulam in the year 2019.</p>
-                        </div>
-                    </div>
-        
-        
-                    <div class="section">
-                        <div class="bead"></div>
-                        <div class="content">
-                            <h2>Under Graduatoin</h2>
-                            <p>I had completed my under graduation in Aditya Institute of Technology and Management in the year 2022.</p>
-                        </div>
-                    </div>
-        
-                    
-        
                 </div>
-            </div>
+
+            </section>
+
+            <!-- =================== END SKILLS ==================-->
 
 
 
@@ -89,122 +144,84 @@
 
 
 
-
-
-
-
-
-
-
-        </div>
-
-        <div class="home-img">
-            <img src="https://raw.githubusercontent.com/Johnwickkomarthi/visualstudiocodes.github.io/main/Images/personal/profile.jpg" alt="img" srcset="">
-        </div>
-    </section>
-
-
-    <!-- About Me -->
-
-    <section class="aboutme" id="aboutme">
-        <h1 class="aboutme-heading">About Me</h1>
-        <span>Introduction</span>
-
-        <div class="aboutme-section">
-            <div class="img-section">
-                <img src="https://raw.githubusercontent.com/Johnwickkomarthi/visualstudiocodes.github.io/main/Images/personal/profilepic.jpg" alt="" class="my-img">
-            </div>
-
-            <div class="aboutme-text">
-                <p>I'm from komarthi, Srikakulam, Andhrapradesh. PIN-532421</p>
-                <div class="icons-div">
-                    <span><i class='bx bxs-user'></i>   Saikiran Matta</span>
-                    <span><i class='bx bxs-phone' ></i>   +91 6304502989</span>
-                    <span><i class='bx bxs-envelope'></i>   saikiranmatta007@gmail.com</span>
-                </div>
-                <a href="#contact" class="contact-me">Download CV</a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Skills -->
-    <section class="skills" id="myskills">
-        <h1 class="skill-heading">Skills</h1>
-        <span class="skill-subheading">My Skills</span>
-
-        <div class="skills-section">
-            <div class="skill-bar">
-                <div class="bars">
-                    <div class="bars-box">
-                        <h3>HTML</h3>
-                        <span>40%</span>
-                        <div class="light-bar"></div>
-                        <div class="percent-bar html-bar"></div>
-                    </div>
-    
-                    <div class="bars-box">
-                        <h3>CSS</h3>
-                        <span>50%</span>
-                        <div class="light-bar"></div>
-                        <div class="percent-bar css-bar"></div>
-                    </div>
-    
-                    <div class="bars-box">
-                        <h3>Java</h3>
-                        <span>60%</span>
-                        <div class="light-bar"></div>
-                        <div class="percent-bar js-bar"></div>
-                    </div>
-    
-                    <div class="bars-box">
-                        <h3>Python</h3>
-                        <span>20%</span>
-                        <div class="light-bar"></div>
-                        <div class="percent-bar react-bar"></div>
-                    </div>
-
-                    <div class="bars-box">
-                        <h3>SQL</h3>
-                        <span>50%</span>
-                        <div class="light-bar"></div>
-                        <div class="percent-bar react-bar"></div>
-                    </div>
-                </div>
-            </div>
-    
-            <div class="skill-img">
-                <img src="https://raw.githubusercontent.com/Johnwickkomarthi/visualstudiocodes.github.io/main/Images/project/skills-graphic-Image.png" alt="">
-            </div>
-        </div>
-    </section>
-
-    <!-- Projects -->
-
-    <div class="projects" id="myprojects">
-        <h1 class="project-heading">Projects</h1>
-
-
-        <div class="d-flex justify-content-center">
-            <img onclick="location.href='Projects/Tourisim/tourisim-homepage.html'" type="button" src="https://raw.githubusercontent.com/Johnwickkomarthi/visualstudiocodes.github.io/main/Images/project/toursim%20homepage.png" alt="">
             
-       </div>
-       <button onclick="location.href='Projects/Tourisim/tourisim-homepage.html'" type="button" class="btn btn-primary">Tourisim</button>
-       <button onclick="location.href='testing/index.html'" type="button" class="btn btn-primary">Portfolio</button>
-    
-     </div>
+            <!-- =================== Projects ==================-->
 
 
-    <!-- Contact Form -->
-    <section class="contact-form" id="contact_form">
-        <h1 class="contact-me-heading">Contact Me</h1>
 
-        <form action="mailto:yourmailid@gmail.com" class="form">
-            <input type="text" name="name" id="name" placeholder="Your Name">
-            <input type="text" name="email" id="email" placeholder="Your Email">
-            <textarea name="message" id="message" cols="20" rows="10" placeholder="Enter your message....."></textarea>
-            <button class="submit">Send</button>
-        </form>
-    </section>
-    <script src="timeline.js"></script>
-</body>
+            <section id="portifolio">
+
+                <div class="container portifolio_container">
+                    <div class="portifolio_head">
+                        <h3> Projects</h3>
+                        <div class="portifolio_head-right">
+                            <p>
+                                I have done this projects to show my skills to the recruiters and other clients. You can click on the live demo button to check the project performance and you can click on the github button to check the source code.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="portifolio_projects">
+
+                        <article class="portifolio_project">
+                            <span class="portifolio_project-image"><img src="images/project/toursim homepage.png" alt=""></span>
+                            <div class="portifolio_cta">
+                                <a href="https://github.com/Johnwickkomarthi/visualstudiocodes.github.io/tree/main/Projects/Tourisim" class="btn" target="_blank">Github</a>
+                                <a href="Projects/Tourisim/tourisim-homepage.html" class="btn btn-primary" target="_blank">Live Demo</a>
+                            </div>
+                        </article>
+
+                        <article class="portifolio_project">
+                            <span class="portifolio_project-image"><img src="images/project/diwali home page.png" alt=""></span>
+                            <div class="portifolio_cta">
+                                <a href="https://github.com/Johnwickkomarthi/visualstudiocodes.github.io/tree/main/Projects/Diwali%20sales" class="btn" target="_blank">Github</a>
+                                <a href="Projects/Diwali sales/festival_web_page.html" class="btn btn-primary" target="_blank">Live Demo</a>
+                            </div>
+                        </article>
+
+                    </div>
+                </div>
+            </section>
+
+
+
+
+
+
+            <!-- =================== END Projects ==================-->
+
+
+
+
+            <!-- =================== CONTACT ==================-->
+            <section id="contact">
+                <div class="container contact_container">
+                    <div class="contact_left">
+                        <h2>Let's talk</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint qui veniam incidunt culpa amet, minus saepe repudiandae iusto vitae nam.
+                        </p>
+                        <address>
+                            <a href="mailto:saikiranmatta007@gmail.com">Email ID - saikiranmatta007@gmail.com </a>
+                            <br>
+                            <a href="tel:634502989"> Mobile No - 634502989</a>
+
+                        </address>
+                    </div>
+                
+                <form action="https://formspree.io/f/xbjboyra" method="POST">
+                    <input type="text" name="Name" placeholder="Your Name">
+                    <input type="email" name="Email" placeholder="Your Email">
+                    <textarea name="message" rows="6" placeholder="Message"></textarea>
+                    <button type="submit" class="btn">Send </button>
+                </form>
+            </div>
+            </section>
+
+            <!-- =================== END CONTACT ==================-->
+
+
+            <script src="app.js"></script>
+        </body>
+        
 </html>
