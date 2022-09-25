@@ -19,3 +19,17 @@ const closeNav = () => {
 }
 
 closeMenu.addEventListener('click', closeNav);
+
+// close nav menu when menu iteams are clicked
+
+if (window.innerWidth<1024){
+    document.querySelectorAll(".nav_menu li a").forEach(navIteam => {
+        navIteam.addEventListener('click', closeNav)
+    })
+}
+
+
+//change navbar styles on scroll
+window.addEventListener('scroll', () => {
+    document.querySelector('nav').classList.toggle('window-scroll', window.scrollY>0);
+})
