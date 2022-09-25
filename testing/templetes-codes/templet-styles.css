@@ -1,0 +1,3 @@
+.test1:hover{
+    cursor:cell; /* this will make cursor to change its appearence when it reaches the given html class elements*/
+}
