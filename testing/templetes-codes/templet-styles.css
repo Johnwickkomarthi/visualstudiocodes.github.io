@@ -1,3 +1,69 @@
 .test1:hover{
     cursor:cell; /* this will make cursor to change its appearence when it reaches the given html class elements*/
 }
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    list-style: none;
+    background-color: black;
+    margin: 5px;
+    grid-area: navbar;
+}
+
+.nav a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    background-color: black;
+}
+
+
+.nav a:hover{
+    background-color: brown;
+}
+header{
+    grid-area: header;
+    background-color: blue;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px;  
+    margin: 5px;  
+}
+.sidebar{
+    grid-area: sidebar;
+    background-color: palevioletred;
+}
+.Main_area{
+    grid-area: main_area;
+}
+.left_sidebar{
+    background-color: blueviolet;
+    grid-area: left_sidebar;
+}
+footer{
+    grid-area: footer;
+    text-align: center;
+    background-color: red;
+    font-size: 40px;
+    padding: 20px;
+}
+
+.conatiner{
+    display: grid;
+    grid-template-columns: 15% 35% 35% 15%;
+    grid-template-areas: 
+    'header header header header'
+    'navbar navbar navbar navbar'
+    'sidebar main_area main_area left_sidebar'
+    'footer footer footer footer'
+    ;
+}
