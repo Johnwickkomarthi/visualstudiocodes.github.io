@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html documentation in Jspiders</title>
+    
+</head>
+<style>
+    .b{
+        border: solid 2px;
+        border-color: brown;
+    }
+</style>
+<body>
+    <!-- Blockquote, quote, pre-formatting tag, marquee -->
+    <div>
+        <h2 class="side-hedding">Blockquote, quote, pre-formatting tag, marquee</h2>
+        <h3 style="border-color: black; border: 5px;">1. blockquote</h3>
+        <blockquote>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+            Vel, nulla! Exercitationem, repellat eligendi. Ullam, commodi?
+        </blockquote>
+
+        <h3>2.quote</h3>
+        <q>hi friends</q>
+
+        <h3>3.pre formatting tag</h3>
+        <pre>
+                  1
+             2 3 4 5 6 
+              654 3 53 4 16
+        </pre>
+
+        <h3>4. marquee</h3>
+        <ul>
+            <dl>
+                <dt>behaviour</dt>
+               <dd> <li>scrool</li> 
+                    <li>slide</li>
+                    <li>alternate</li>
+                </dd>
+                <dt>direction</dt>
+                <dd>
+                    <li>left</li><!-- default -->
+                    <li>right</li>
+                    <li>up</li>
+                    <li>down</li>
+                </dd>
+                <p> There is an extra attribute i.e., <u>scrollamount</u></p>
+                
+            </dl>
+        </ul>
+        <h4>default behaviour=scroll, direction=left</h4>
+        <marquee behavior="" direction="">default behaviour=scroll, direction=left. It will pass through the webpage and come again</marquee>
+        <h4>behaviour=slide, direction=right</h4>
+        <marquee behavior="slide" direction="right">behaviour=slide, direction=right. This will end of the webpage</marquee>
+        <h4>behaviour=scroll, direction=up</h4>
+        <marquee behavior="scroll" direction="up">behaviour=scroll, direction=up</marquee>
+        <h4>behaviour=alternate, direction=default, scrollamount=5</h4>
+        <marquee behavior="alernate" direction="" scrollamount="5">behaviour=alternate, direction=default, scrollamount=5</marquee>
+    </div>
+
+    
+    <!-- Tables demonistration -->
+<div>
+    <h2 class="side-hedding">tables demonistatrions </h2>
+    <ul>
+   <li> <h3>with rowspan and colspan</h3>
+        <table border="">
+            <tr>
+                <td rowspan="2">Lorem, ipsum.</td>
+                <td>Lorem, ipsum.</td>
+                <td>Lorem, ipsum.</td>
+            </tr>
+            <tr>
+                
+                <td >Lorem, ipsum.</td>
+                <td>Lorem, ipsum.</td>
+            </tr>
+            <tr>
+                <td>Lorem, ipsum.</td>
+                <td colspan="2">Lorem, ipsum.</td>
+            </tr>
+        </table>
+    </li>
+    <li> <h3>with cell padding=30px</h3>
+        <table border="" cellpadding="30px">
+            <tr>
+                <td rowspan="2">Lorem, ipsum.</td>
+                <td>Lorem, ipsum.</td>
+                <td>Lorem, ipsum.</td>
+            </tr>
+            <tr>
+                
+                <td >Lorem, ipsum.</td>
+                <td>Lorem, ipsum.</td>
+            </tr>
+            <tr>
+                <td>Lorem, ipsum.</td>
+                <td colspan="2">Lorem, ipsum.</td>
+            </tr>
+        </table>
+    </li>
+    <li> <h3>with cellspacing=30px</h3>
+        <table border="" cellspacing="30px">
+            <tr>
+                <td rowspan="2">Lorem, ipsum.</td>
+                <td>Lorem, ipsum.</td>
+                <td>Lorem, ipsum.</td>
+            </tr>
+            <tr>
+                
+                <td >Lorem, ipsum.</td>
+                <td>Lorem, ipsum.</td>
+            </tr>
+            <tr>
+                <td>Lorem, ipsum.</td>
+                <td colspan="2">Lorem, ipsum.</td>
+            </tr>
+        </table>
+    </li>
+</ul>
+
+
+<!-- HTML5 table demonistatrions -->
+</div>
+    <h2>HTML5 table demonistatrions</h2>
+    <table align="center" border="">
+        <caption>Time table</caption>
+        <thead>
+            <tr>
+                <th>monday</th>
+                <th>tuesday</th>
+                <th>wednesday</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>sql</td>
+                <td>web</td>
+                <td>java</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr style="text-align: center;">
+                <td colspan="3">@copy paste</td>
+            </tr>
+        </tfoot>
+    </table>
+        <div>
+
+
+            <h3>Nested table demonistration</h3>
+        <table align="center" border="">
+            <caption style="color: blue;">Task</caption>
+            <tbody>
+                <tr>
+                    <td><p>This is paragraph about me!</p>
+                        <p>This is another paragraph about me</p>
+                    </td>
+                    <td>
+                        <table border="">
+                            <caption>Random Notes</caption>
+                            <tbody>
+                                <tr>
+                                    <td>I.Doe</td>
+                                    <td>p.Play</td>
+                                </tr>
+                                <tr>
+                                    <td>B.Bob</td>
+                                    <td>T.sam</td>
+                                </tr>
+                                <tfoot>
+                                    <tr>
+                                        <td colspan="2">contatc me details</td>
+                                    </tr>
+                                </tfoot>
+                            </tbody>
+                        </table>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <dl>
+                            <dt>free software</dt>
+                        <dd>
+                            <ol>
+                                <li>linux</li>
+                                <li>Apache</li>
+                                <li>Mysql</li>
+                                <li>PHP</li>
+                            </ol>
+                            </dd>
+                        </dl>
+                    </td>
+                    <td>
+                        <h5>HELLO</h5>
+                    </td>
+                </tr>
+            </tbody>
+        </div>
+    </table>
+
+    <div>
+        <h3>another example</h3>
+            <table border="">
+                <caption>TIME TABLE</caption>
+                <thead>
+                    <th>TIME TABLE</th>
+                    <TH>10AM-12PM</TH>
+                    <TH>12PM-2PM</TH>
+                    <TH>2PM-3PM</TH>
+                    <TH>3PM-5PM</TH>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><b>MONDAY</b> </td>
+                        <td>Python</td>
+                        <td>web</td>
+                        <td align="center" rowspan="5">
+                            L <br>
+                            U <br>
+                            N <br>
+                            C <br>
+                            H <br>
+                            - <br>
+                            B <br>
+                            R <br>
+                            E <br>
+                            A <br>
+                            K <br>
+
+                        </td>
+                        <td>SQL</td>
+                    </tr>
+                    <tr>
+                        <td><b>TUESDAY</b></td>
+                        <td>SQL</td>
+                        <td>Django</td>
+                        <td>Python</td>
+                    </tr>
+                    <tr>
+                        <td><b>WEDNESAY</b></td>
+                        <td>SQL</td>
+                        <td>Django</td>
+                        <td>Python</td>
+                    </tr>
+                    <tr>
+                        <td><b>THURSDAY</b></td>
+                        <td>SQL</td>
+                        <td>Django</td>
+                        <td>Python</td>
+                    </tr>
+                    <tr>
+                        <td><b>FRIDAY</b></td>
+                        <td>SQL</td>
+                        <td>Django</td>
+                        <td>Python</td>
+                    </tr>
+                </tbody>
+
+
+            </table>
+
+
+
+
+
+
+    </div>
+
+    <div>
+        
+    </div>
+</body>
+</html>
