@@ -60,7 +60,7 @@ feedToken=obj.getfeedToken()
 try:
     historicParam={ "exchange": "NSE","symboltoken": "3045","interval": "ONE_MINUTE","fromdate": "2021-02-08 09:00", "todate": "2021-02-08 15:45"}
     
-    with open('D:/vs_code/visualstudiocodes.github.io/python-codes/trading/angel_broking/text-documents/historical_data.txt','w') as file:
+    with open('D:/vs_code/visualstudiocodes.github.io-1/python-codes/trading/angel_broking/text-documents/historical_data.txt','w') as file:
         
         for element in obj.getCandleData(historicParam)['data']:
             json_data=json.dumps(element)
