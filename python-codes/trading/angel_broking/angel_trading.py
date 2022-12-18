@@ -1,4 +1,5 @@
 from smartapi import SmartConnect 
+import numpy as np
 import pyotp
 import json
 from smartapi import SmartWebSocket
@@ -62,9 +63,12 @@ try:
     
     with open('D:/vs_code/visualstudiocodes.github.io-1/python-codes/trading/angel_broking/text-documents/historical_data.txt','w') as file:
         
-        for element in obj.getCandleData(historicParam)['data']:
-            json_data=json.dumps(element)
-            file.write(json_data+'\n')
+        element=obj.getCandleData(historicParam)['data']
+        json_data=json.dumps(element)
+        file.write(json_data)
+        # for element in obj.getCandleData(historicParam)['data']:
+        #     json_data=json.dumps(element[4])
+        #     file.write(json_data+'\n')
 except Exception as e:
     print("Historic Api failed: {}".format(e.message))
 
