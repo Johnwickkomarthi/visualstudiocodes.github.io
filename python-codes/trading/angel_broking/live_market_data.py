@@ -5,9 +5,9 @@ from smartapi import SmartWebSocket
 FEED_TOKEN=feedToken
 CLIENT_CODE="M187024"
 # token="mcx_fo|224395"
-token="mcx_fo|226745"    #SAMPLE: nse_cm|2885&nse_cm|1594&nse_cm|11536&nse_cm|3045
+token="nse_cm|2885"    #SAMPLE: nse_cm|2885&nse_cm|1594&nse_cm|11536&nse_cm|3045
 # token="mcx_fo|226745&mcx_fo|220822&mcx_fo|227182&mcx_fo|221599"
-task="hb"   # mw|sfi|dp
+task="mw"   # mw|sfi|dp
 
 ss = SmartWebSocket(FEED_TOKEN, CLIENT_CODE)
 
