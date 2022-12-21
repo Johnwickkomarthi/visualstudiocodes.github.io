@@ -9,14 +9,13 @@
 </head>
 <style>
     .b{
-        border: solid 2px;
-        border-color: brown;
+        align-items: center;
     }
 </style>
 <body>
     <!-- Blockquote, quote, pre-formatting tag, marquee -->
     <div>
-        <h2 class="side-hedding">Blockquote, quote, pre-formatting tag, marquee</h2>
+        <h2 align="center">Blockquote, quote, pre-formatting tag, marquee</h2>
         <h3 style="border-color: black; border: 5px;">1. blockquote</h3>
         <blockquote>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
             Vel, nulla! Exercitationem, repellat eligendi. Ullam, commodi?
@@ -64,7 +63,7 @@
     
     <!-- Tables demonistration -->
 <div>
-    <h2 class="side-hedding">tables demonistatrions </h2>
+    <h2 align="center">tables demonistatrions </h2>
     <ul>
    <li> <h3>with rowspan and colspan</h3>
         <table border="">
@@ -125,7 +124,7 @@
 
 <!-- HTML5 table demonistatrions -->
 </div>
-    <h2>HTML5 table demonistatrions</h2>
+    <h2 align="center">HTML5 table demonistatrions</h2>
     <table align="center" border="">
         <caption>Time table</caption>
         <thead>
@@ -270,9 +269,97 @@
 
 
     </div>
+ <!-- forms demonistaration -->
+    <div align="center">
+        <h2>forms demonistaration</h2>
+        <p> we use fieldset to make border along the forms. <br>
+            There are two attributes for the forms, they are action and method. <br>
+            action is used to store the data in the server, if we provide a proper server. <br>
+            method have two differnt values. 1. get and 2. post. "get" is default value so it will show the values to the world in the url. <br>
+            "post" will hide (secure) the data and pass it to the server internally. In dropdown feature if we use select tag by default value will be used in the <box class="br">
+            But we need empty value in the box, for that we will use input tag and datalist tag.
+            </box>
+        </p>
 
-    <div>
         
+        <fieldset>
+            <legend align="center">Register</legend>
+            <form  action="#" method="get">
+                <div>
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name">
+                </div>
+                <div>
+                    <label for="lname">Lname</label>
+                    <input type="text" name="lname" id="lname">
+                </div>
+                <div>
+                    <label for="phno">Ph.No</label>
+                    <input type="tel" name="phno" id="phno">
+                </div>
+                    <input type="submit" name="submit" id="submit">
+                <div>
+                    <label for="age">Age</label>
+                    <input type="number" name="age" id="age">
+                </div>
+                <div>
+                        <label for="mail">Email</label>
+                        <input type="email" name="mail" id="mail">
+                </div>
+                <div>
+                    <label for="gen">Gengder</label>
+                    <input type="radio" name="gen" id="">male
+                    <input type="radio" name="gen" id="">female
+                </div>
+                <div>
+                    <label for="address">Address</label>
+                    <textarea name="address" id="address" cols="5" rows="1"></textarea>
+                </div>
+                <div>
+                    <label for="">Pulihora starting</label>
+                    <select name="" id="">
+                        <option value="hi">hi</option>
+                        <option value="hi 2">hi 2</option>
+                        <option value="hi 3">hi 3</option>
+                        <option value="hi again">hi again</option>
+                        <option value="hi return">hi return</option>
+                        <option value="Hi: The warth of Hello">Hi: The warth of Hello</option>
+                        <option value="Hi: Lost in space">Hi: Lost in space</option>
+                        <option value="The hi never die 8">The hi never die 8</option>
+                        <option value="The death of hi 9">The death of hi 9</option>
+                        <option value="The hi reborn">The hi reborn</option>
+                        <option value="The hi strike out">The hi strike out</option>
+                        <option value="The Hi nation">The Hi nation</option>
+                        <option value="Hi fall out">Hi fall out</option>
+                        <option value="Hi endgame">Hi endgame</option>
+                        <option value="The last Hi">The last Hi</option>
+                        <option value="The rise of Hey">The rise of Hey</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="king">qualification</label>
+                    <input list="king">
+                    <datalist id="king">
+                        <option value="Hi fall out">Hi fall out</option>
+                        <option value="Hi endgame">Hi endgame</option>
+                        <option value="The last Hi">The last Hi</option>
+                        <option value="The rise of Hey">The rise of Hey</option>
+                    </datalist>
+                </div>
+                <div>
+                    <label for="pass">Password</label>
+                    <input type="password" name="pass" id="pass">
+
+                </div>
+                <div>
+                    <label for="file">attach your file</label>
+                    <input type="file" name="file" id="file">
+                </div>
+                <div>
+                    
+                </div>
+            </form>
+        </fieldset>
     </div>
 </body>
 </html>

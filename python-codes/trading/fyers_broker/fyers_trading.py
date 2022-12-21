@@ -16,7 +16,7 @@ feteched_data=wb.sheets('live_data')
 
 # this will fetch the live from the market into the excel sheet
 while(True):
-    data = {"symbols":"NSE:SBIN-EQ"}
+    data = {"symbols":"NSE:NIFTYBANK-INDEX"}
     values=fyers.quotes(data)['d'][0]['v']
     ask=values['ask']
     bid=values['bid']
