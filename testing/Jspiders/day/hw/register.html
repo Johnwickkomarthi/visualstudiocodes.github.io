@@ -6,12 +6,181 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register</title>
 </head>
-<body align="center">
+<body>
     
     <h1 style="text-align: center;">REGISTER PAGE</h1>
     <a href="home.html"><button style="width:150px">click for Home </button></a><br><br>
     <a href="login.html" target="_self"><button style="width:150px">click for login</button></a><br><br>
     <a href="img.html" target="_blank"><button style="width:150px">click for Images</button></a> <br>
-    
+    <form action="">
+        <table>
+            <!-- name -->
+            <tr>
+                <td>
+                    <label for="name">FullName</label>
+                </td>
+                <td>
+                    <input type="text" name="name" id="name">(max 20 char a-z or A-Z)
+                </td>
+            </tr>
+            <!-- lastname -->
+            <tr>
+                <td>
+                    <label for="lname">Last Name</label>
+                </td>
+                <td>
+                    <input type="text" name="lname" id="lname">(max 20 char a-z or A-Z)
+                </td>
+            </tr>
+            <!-- date of birth -->
+            <tr>
+                <td>
+                    <label for="d">Date of Birth</label>
+                </td>
+                <td>
+                    <input type="date" name="d" id="d">
+                </td>
+            </tr>
+            <!-- gender -->
+            <tr>
+                <td>
+                    <label for="g">Gender</label>
+                </td>
+                <td>
+                    <input type="radio" name="g" id="g">Male
+                    <input type="radio" name="g" id="g">Female
+                </td>
+            </tr>
+            <!-- email id -->
+            <tr>
+                <td>
+                    <label for="email">Email ID</label>
+                </td>
+                <td>
+                    <input type="email" name="email" id="email">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="add">Address</label>
+                </td>
+                <td>
+                    <textarea name="add" id="add" cols="20" rows="10"></textarea>
+                </td>
+            </tr>
+            <!-- city -->
+            <tr>
+                <td>
+                    <label for="city">CITY</label>
+                </td>
+                <td>
+                    <input type="text" name="city" id="city">(max 20 char a-z or A-Z)
+                </td>
+            </tr>
+            <!-- pin code -->
+            <tr>
+                <td>
+                    <label for="pin">PIN CODE</label>
+                </td>
+                <td>
+                    <input type="number" name="pin" id="pin">(6 digit number)
+                </td>
+            </tr>
+            <!-- state -->
+            <tr>
+                <td>
+                    <label for="st">STATE</label>
+                </td>
+                <td>
+                    <input type="text" name="st" id="st">
+                </td>
+            </tr>
+            <!-- country -->
+            <tr>
+                <td>
+                    <label for="ct">COUNTRY</label>
+                </td>
+                <td>
+                    <input type="text" name="ct" id="ct">
+                </td>
+            </tr>
+            <!-- hobbies -->
+            <tr>
+                <td>
+                    <label for="hobbies">HOBBIES</label>
+                </td>
+                <td>
+                    <input type="checkbox" name="hobbies" id="hobbies">Drawing
+                    <input type="checkbox" name="hobbies" id="hobbies">Singing
+                    <input type="checkbox" name="hobbies" id="hobbies">Dancing <br>
+                    <input type="checkbox" name="hobbies" id="hobbies">Others <input type="text" name="" id="">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="qua">Qualification</label>
+                </td>
+                <td>
+                    <table>
+                        <thead>
+                            <th>sl.no</th>
+                            <th>Examination</th>
+                            <th>Board</th>
+                            <th>Percentage</th>
+                            <th>year of passing</th>
+                        </thead>
+                        <tr>
+                            <td>01</td>
+                            <td>Class X</td>
+                            <td><input type="text" name="" id=""></td>
+                            <td><input type="text" name="" id=""></td>
+                            <td><input type="text" name="" id=""></td>
+                        </tr>
+                        <tr>
+                            <td>02</td>
+                            <td>Class II</td>
+                            <td><input type="text" name="" id=""></td>
+                            <td><input type="text" name="" id=""></td>
+                            <td><input type="text" name="" id=""></td>
+                        </tr>
+                        <tr>
+                            <td>03</td>
+                            <td>Graduation</td>
+                            <td><input type="text" name="" id=""></td>
+                            <td><input type="text" name="" id=""></td>
+                            <td><input type="text" name="" id=""></td>
+                        </tr>
+                        <tr>
+                            <td>04</td>
+                            <td>Master</td>
+                            <td><input type="text" name="" id=""></td>
+                            <td><input type="text" name="" id=""></td>
+                            <td><input type="text" name="" id=""></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="cra"> COURCES APPLIED FOR</label>
+                </td>
+                <td>
+                    <input type="checkbox" name="cra" id="cra">BCA
+                    <input type="checkbox" name="cra" id="cra">B.com
+                    <input type="checkbox" name="cra" id="cra">B.sc
+                    <input type="checkbox" name="cra" id="cra">B.A
+                    
+                </td>
+            </tr>
+            <tr>
+                <td> 
+                    <input type="submit" name="" id="">
+                </td>
+                <td>
+                    <input type="reset" name="" id="">
+                </td>
+            </tr>
+        </table>
+    </form>
 </body>
 </html>

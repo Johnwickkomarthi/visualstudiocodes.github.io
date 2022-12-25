@@ -2,10 +2,9 @@ from smartapi import SmartConnect
 import numpy as np
 import pyotp
 import json
-from smartapi import SmartWebSocket
 secret_key='4eb67ab8-4b22-48ff-9810-07cdf493e704'
 totop_code='22X5MZ74NNGDCDHK5IGOOBWPDA'
-obj=SmartConnect(api_key='mNjk9pyN')
+obj=SmartConnect(api_key='mNjk9pyN')#Instace of angel broking to access the api data.
 data=obj.generateSession('M187024','3471179$@!M',pyotp.TOTP('22X5MZ74NNGDCDHK5IGOOBWPDA').now())
 refreshToken= data['data']['refreshToken']
 
@@ -59,7 +58,7 @@ feedToken=obj.getfeedToken()
 # }
 #Historic api
 try:
-    historicParam={ "exchange": "NSE","symboltoken": "3045","interval": "ONE_MINUTE","fromdate": "2021-02-08 09:00", "todate": "2021-02-08 15:45"}
+    historicParam={ "exchange": "NSE","symboltoken": "3045","interval": "ONE_MINUTE","fromdate": "2021-02-08 09:00", "todate": "2021-02-08 09:16"}
     
     with open('D:/vs_code/visualstudiocodes.github.io-1/python-codes/trading/angel_broking/text-documents/historical_data.txt','w') as file:
         
