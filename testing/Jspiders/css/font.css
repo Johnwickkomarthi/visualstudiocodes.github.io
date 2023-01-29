@@ -1,0 +1,14 @@
+#p1{
+    font-weight: bold;
+    
+}
+#p2{
+    font-style: oblique;
+    font-variant: small-caps;
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+}
+#p3{
+    font-weight: 800;
+    font-size: xx-large ;
+    font-style: italic;
+}

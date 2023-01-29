@@ -1,0 +1,40 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+aside{
+    margin-top: 50px;
+    margin-left: 15%;
+}
+h4::first-letter{
+    color: red;
+}
+h4{
+    margin-bottom: 15px;
+}
+h5{
+    margin-bottom: 15px;
+}
+input{
+    margin-bottom: 15px;
+}
+#signup{
+    margin-bottom: 15px;
+    width: 170px;
+    background-color: rgb(4, 62, 4);
+    color: rgb(24, 117, 13);
+}
+#g{
+    margin-right: 30px;
+}
+a{
+    font-size: xx-small;
+}
+#right{
+    margin-top: -250px;
+    margin-left: 60%;
+    width: 200px;
+}
+p{
+    font-size: xx-small;
+}

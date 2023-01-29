@@ -1,0 +1,45 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+nav{
+    padding: 7px;
+    padding-left: 2%;
+    padding-right: 2%;
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    align-items: center;
+}
+ol{
+    width: 20%;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+svg{
+    height: 30px;
+    width: 150px;
+}
+#div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-image: url("https://cdn.pixabay.com/index/2023/01/16/17-14-16-8_1920x550.jpg");
+    height: 500px;
+}
+
+#join{
+    border: 1px solid;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: white;
+}
+#up{
+    background-color: green;
+    color: white;
+    border-radius: 15px;
+    padding: 10px;
+}

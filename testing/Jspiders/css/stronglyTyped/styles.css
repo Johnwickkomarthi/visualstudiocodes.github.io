@@ -1,0 +1,269 @@
+*{
+    padding: 0%;
+    margin: 0;
+}
+:root{
+    --one:2px solid;
+    --two:1px solid red;
+}
+/* Navigation bar starts */
+nav{
+    z-index: 5;
+    position: sticky;
+    top: 0%;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+}
+/* right side starts */
+.right{
+    display: flex;
+}
+.list{
+    display: flex;
+    list-style: none;
+    width: fit-content;
+}
+nav ul{
+    border-radius: 5px;
+    display: flex;
+    border: 2px solid gray;
+    margin: 0.5em;
+}
+nav h1{
+    font-size: 1.5em;
+    margin: 0.5em;
+    padding: 0.25em;
+}
+nav ul button{
+    font-size: 1em;
+    background-color: black;
+    color: white;
+    padding: 0.25em;
+
+}
+
+nav ul button:hover{
+    background-color:rgb(53, 49, 49);
+}
+.popout{
+    border-radius: 5px;
+    padding: 0.25em;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    border: 1px solid gray;
+    color: white;
+    margin: 0.5em;
+    background-color: black;
+}
+.popout:hover{
+    color: red;
+    border: 1px solid red;
+}
+/* right side end  */
+/* left side start  */
+.left{
+    width: 30vw;
+    display: flex;
+    /* justify-content: space-between; */
+}
+.left button{
+    color: white;
+}
+.social{
+    border-radius: 5px;
+    margin: 0.5em;
+    padding: 0.5em;
+    border: 1px solid grey;
+    width: 50%;
+}
+.back{
+    margin: 0.5em;
+    padding: 0.25em;
+    border: 1px solid grey;
+}
+.like{
+    background-color: blue;
+    font-size: 1em;
+    padding: 0.1em;
+    padding-right: 0.5em;
+    padding-left: 0.5em;
+    border-radius: 5px;
+}
+.tweet{
+    background-color: rgb(39, 132, 163);
+    padding: 0.1em;
+    padding-right: 0.5em;
+    padding-left: 0.5em;
+    border-radius: 15px;
+    font-size: 1em;
+}
+.back{
+    font-size: 1em;
+    padding: 0.25em;
+    padding-right: 1em;
+    padding-left: 1em;
+}
+.download{
+    background-color: red;
+    width: 60%;
+    font-size: 1em;
+    margin: 0.25em;
+    border-radius: 5px;
+}
+/* left side ends  */
+/* Naviagtion bar ends  */
+
+/* header section starts  */
+
+.header_section{
+    display: flex;
+    justify-content: center;
+}
+.header_section header{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    border-bottom: 2px solid #e5e5e5;
+    box-shadow: inset 0px -8px 0px 0px #fff,inset 0px -10px 0px 0px #e5e5e5;
+}
+.nav_bar{
+    /* border: 1px solid; */
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    margin: 3.5em;
+    width: 100%;
+}
+.this_icon{
+    background-color: black;
+    padding: 0.5em;
+    border-radius: 100%;
+    color: white;
+    filter: drop-shadow(2px 2px grey);
+    margin-right: 0.5em;
+}
+.this_icon:hover{
+    background-color: red;
+}
+.icon_hover:hover{
+    color: red;
+}
+
+.header_section header h1{
+    color: red;
+    font-size: 3em;
+    filter: drop-shadow(4px 4px 1.5px grey );
+    margin-top: 1.5em;
+}
+.header_section header p{
+    margin-top: 1.5em;
+    text-transform:uppercase;
+    margin-bottom: 7em;
+}
+/* header section completed */
+
+
+/* cards section starts  */
+.cards_section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cards_section h1{
+    font-size: 2em;
+    text-transform:uppercase;
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+.all_cards{
+    /* border: var(--one); */
+    width: 80vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.cards{
+    /* border: var(--two); */
+    width:25vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cards img{
+    border: 5px solid rgb(214, 208, 208);
+    margin-bottom: 2em;
+}
+.cards h3{
+    margin: 2em;
+    text-transform: uppercase;
+
+}
+.cards p{
+    text-align: center;
+}
+.cards a{
+    color: black;
+}
+.cards a:hover{
+    color: red;
+}
+.more{
+    background-color: red;
+    color: white;
+    margin: 5em;
+    padding: 1.5em;
+    padding-left: 4em;
+    padding-right: 4em;
+    border-radius: 5px;
+    border: red;
+    filter: drop-shadow(2px 2px 1px grey);
+}
+.more:hover{
+    background-color: rgb(188, 79, 79);
+}
+
+ /* cards sectin ends  */
+/* banner section start  */
+.banner{
+    background-image: url("banner.jpg");
+    height: 65vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5em;
+}
+.banner p{
+    color: white;
+    font-size: 2.5em ;
+    text-transform: uppercase;
+}
+
+/* banner section ends  */
+
+/* contet section start  */
+
+ /* article section start */
+#content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#articles{
+    display: flex;
+    width: 80vw;
+}
+.main_column{
+    border: var(--one);
+    width: 66%;
+}
+/* article section ends  */
+
+/* sidebar section start  */
+.sidebar{
+    width: 33%;
+    border: var(--two);
+}
+/* sidebar section ends  */

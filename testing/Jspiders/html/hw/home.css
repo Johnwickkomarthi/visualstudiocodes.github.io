@@ -1,0 +1,22 @@
+.name:hover{
+    color:rgb(0, 255, 21);
+    
+}
+.dob:hover{
+    background-color: aqua;
+    color: black;
+}
+.email:hover{
+    font-size: larger;
+    font-style: italic;
+    color: rgba(200, 49, 227, 0.755);
+}
+.phno:hover{
+    height: 100px;
+    width: 200px;
+    background-color: rgb(159, 210, 17);
+    align-items: center;
+}
+button:hover{
+    color: rgb(251, 255, 0);
+}

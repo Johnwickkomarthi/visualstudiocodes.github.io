@@ -1,0 +1,15 @@
+.home{
+    background-image: url("https://cdn.pixabay.com/index/2023/01/16/17-14-16-8_1920x550.jpg");
+    height: 500px;
+    color:white;
+    text-align: center;
+    
+}
+h1{
+    padding-top: 10%;
+}
+.search{
+    width: 50%;
+    height: 7%;
+    border-radius:50px;
+}

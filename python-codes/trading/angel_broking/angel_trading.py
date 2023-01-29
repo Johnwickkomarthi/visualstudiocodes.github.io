@@ -1,16 +1,57 @@
+
+userid='M187024'
+password='2022'
+secret_key='438287645-1363-401f-8d32-f4773767e18c'
+totop_code='22X5MZ74NNGDCDHK5IGOOBWPDA'
+
+
+
+
+
 from smartapi import SmartConnect 
 import numpy as np
 import pyotp
 import json
 import xlwings as xw
-secret_key='4eb67ab8-4b22-48ff-9810-07cdf493e704'
-totop_code='22X5MZ74NNGDCDHK5IGOOBWPDA'
+
 obj=SmartConnect(api_key='mNjk9pyN')#Instace of angel broking to access the api data.
-data=obj.generateSession('M187024','3471179$@!M',pyotp.TOTP('22X5MZ74NNGDCDHK5IGOOBWPDA').now())
+data=obj.generateSession(userid,password,pyotp.TOTP(totop_code).now())
 refreshToken= data['data']['refreshToken']
 
 #fetch the feedtoken
 feedToken=obj.getfeedToken()
+i=int(100)#list of stocks
+nifty_100_stocks=["22","25","3563","15083","10217","1270","157","236","6066","5900","16669","16675","305","317","2263","4668","383","404","10604","11373","2181","526","547","685","694","20374","15141","772","10940","14732","19913","881","910","4717","1153","10099","1232","2303","9819","7229","1330","4244","1333","467","1348","1363","1394","4963","21770","18652","11195","5258","29135","1594","1624","13611","1660","11723","1922","9480","11483","17818","2031","4067","10999","10447","4204","4503","23650","13751","17963","11630","6545","2475","6705","2535","2664","24184","14977","2885","17971","21808","3045","3103","3150","3273","3351","3432","3456","3426","3499","11536","13538","3506","3518","11532","11287","3063","3787","5097"]
+wb=xw.Book('D:/vs_code/visualstudiocodes.github.io-1/python-codes/trading/angel_broking/text-documents/fo_mktlots.xlsx')#accessing the excel sheet from python.
+prices=wb.sheets('NIFTY100')
+#str(prices.range('b'+str(i)).value)
+# try:
+#     while(i>1):#accesing the nifty 100 stocks using each iteration
+#         historicParam={ "exchange": "NSE","symboltoken":nifty_100_stocks[i],"interval": "FIVE_MINUTE","fromdate": "2021-02-08 09:21", "todate": "2021-02-08 09:25"}
+#         element=obj.getCandleData(historicParam)['data']
+#         prices.range('c'+str(i)).value=element[0][1]#adding the values that are given by the sever into the excel sheet.
+#         prices.range('d'+str(i)).value=element[0][2]
+#         prices.range('e'+str(i)).value=element[0][3]
+#         prices.range('f'+str(i)).value=element[0][4]
+#         prices.range('g'+str(i)).value=element[0][5]
+#         i=i-1
+# except Exception as e:
+#     print("Historic Api failed: {}".format(e.message))
+# #smartapi@angelbroking.com
+print('code successful')
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # historicParam={ "exchange": "NSE","symboltoken": "3045","interval": "FIVE_MINUTE","fromdate": "2021-02-08 09:16", "todate": "2021-02-08 09:20"}
     
@@ -69,25 +110,4 @@ feedToken=obj.getfeedToken()
 #      ]
 # }
 #Historic api
-i=int(80)
-nifty_100_stocks=["22","25","3563","15083","10217","1270","157","236","6066","5900","16669","16675","305","317","2263","4668","383","404","10604","11373","2181","526","547","685","694","20374","15141","772","10940","14732","19913","881","910","4717","1153","10099","1232","2303","9819","7229","1330","4244","1333","467","1348","1363","1394","4963","21770","18652","11195","5258","29135","1594","1624","13611","1660","11723","1922","9480","11483","17818","2031","4067","10999","10447","4204","4503","23650","13751","17963","11630","6545","2475","6705","2535","2664","24184","14977","2885","17971","21808","3045","3103","3150","3273","3351","3432","3456","3426","3499","11536","13538","3506","3518","11532","11287","3063","3787","5097"]
-wb=xw.Book('D:/vs_code/visualstudiocodes.github.io-1/python-codes/trading/angel_broking/text-documents/fo_mktlots.xlsx')
-prices=wb.sheets('NIFTY100')
-#str(prices.range('b'+str(i)).value)
-try:
-    while(i>1):
-        historicParam={ "exchange": "NSE","symboltoken":'3045',"interval": "FIVE_MINUTE","fromdate": "2021-02-08 09:21", "todate": "2021-02-08 09:25"}
-        element=obj.getCandleData(historicParam)
-        with open('D:/vs_code/visualstudiocodes.github.io-1/python-codes/trading/angel_broking/text-documents/historical_data.txt','w') as file:
-            json_data=json.dumps(element)
-            file.write(json_data)
-        # prices.range('c'+str(i)).value=element[0][1]
-        # prices.range('d'+str(i)).value=element[0][2]
-        # prices.range('e'+str(i)).value=element[0][3]
-        # prices.range('f'+str(i)).value=element[0][4]
-        # prices.range('g'+str(i)).value=element[0][5]
-        i=i-1
-except Exception as e:
-    print("Historic Api failed: {}".format(e.message))
 
-print('code successful')

@@ -1,0 +1,43 @@
+@import url(external2.css);
+a:link{
+    color:blueviolet;
+    background-color: aqua;
+}
+a:visited{
+    color: beige ;
+    background-color: black;
+}
+a:active{
+    background-color: brown;
+}
+input:checked{
+    height: 50px;
+    width:50px;
+    accent-color: red;
+    box-shadow: 10px 10px 1px green;
+}
+input:focus{
+    height:50px;
+    width:50px;
+    background-color: yellow;
+    caret-color: blue;
+}
+button:hover{
+    background-color: chocolate;
+    color: blueviolet;
+    height: 50px;
+    width: 100px;
+    cursor: pointer;
+}
+div{
+    border: 1px solid;
+}
+div:hover{
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    background-color: blueviolet;
+}
+p:hover{
+    opacity: 0.7;
+}

@@ -1,0 +1,39 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-color: grey;
+}
+nav{
+    color: rgb(42, 6, 75);
+    background-color: rgb(166, 90, 238);
+    position: sticky;
+    top: 0%;
+}
+span{
+    padding-right: 30px;
+}
+#left{
+    width: 20%;
+    background-color: white;
+}
+#main{
+    padding-left: 50px;
+    position:absolute;
+    width: 79%;
+    left:20%;
+    top:19px;
+}
+#main h1{
+    padding: 5px;
+}
+#main p{
+    padding: 5px;
+}
+button{
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+    background-color: blue;
+}

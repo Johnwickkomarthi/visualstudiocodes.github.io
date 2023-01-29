@@ -1,0 +1,19 @@
+/* h1:first-child{
+    background-color: crimson;
+} */
+/* 
+h1:last-child{
+    background-color: crimson;
+} */
+
+/* h1:nth-child(even){
+    background-color: green;
+} */
+
+/* h1:first-of-type{
+    background-color: yellowgreen;
+} */
+
+h1:last-of-type{
+    background-color: rgb(191, 0, 0);
+}

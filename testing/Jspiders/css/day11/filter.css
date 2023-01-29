@@ -1,0 +1,10 @@
+img{
+    /* filter: blur(2px); */
+    /* filter: brightness(110%); */
+    /* filter: contrast(40%); */
+    /* filter: drop-shadow(8px 5px 5px ); we can give colors also */
+    /* filter: grayscale(45%); */
+    /* filter: hue-rotate(90deg); */
+    /* filter: invert(45%); */
+    /* filter: saturate(55%); */
+}
