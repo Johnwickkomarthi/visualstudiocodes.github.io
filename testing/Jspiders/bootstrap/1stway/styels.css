@@ -1,0 +1,11 @@
+#home_m{
+    color: red;
+}
+.carousel-item{
+    padding: 50px;
+}
+section{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}

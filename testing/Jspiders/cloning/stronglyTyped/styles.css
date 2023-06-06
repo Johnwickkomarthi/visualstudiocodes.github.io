@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Poppins:ital,wght@0,300;1,200&display=swap');
+
 *{
     padding: 0%;
     margin: 0;
@@ -5,10 +7,17 @@
 :root{
     --one:2px solid;
     --two:1px solid red;
+    --font-color:#777;
+}
+.link-anchor{
+    color: #777;
+}
+body{
+    color: #777;
 }
 /* Navigation bar starts */
 nav{
-    z-index: 5;
+    z-index: 1  ;
     position: sticky;
     top: 0%;
     display: flex;
@@ -32,6 +41,7 @@ nav ul{
     margin: 0.5em;
 }
 nav h1{
+    
     font-size: 1.5em;
     margin: 0.5em;
     padding: 0.25em;
@@ -168,6 +178,7 @@ nav ul button:hover{
 
 /* cards section starts  */
 .cards_section{
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -184,6 +195,7 @@ nav ul button:hover{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    margin-bottom: 5em;
 }
 .cards{
     /* border: var(--two); */
@@ -213,7 +225,7 @@ nav ul button:hover{
 .more{
     background-color: red;
     color: white;
-    margin: 5em;
+    /* margin: 5em; */
     padding: 1.5em;
     padding-left: 4em;
     padding-right: 4em;
@@ -234,13 +246,22 @@ nav ul button:hover{
     justify-content: center;
     align-items: center;
     margin-bottom: 5em;
+    margin-top: 5em;
 }
 .banner p{
     color: white;
     font-size: 2.5em ;
+    
     text-transform: uppercase;
 }
-
+.banner p::before{
+    content: "";
+    display: block;
+    position: absolute;
+    left: 10%;
+    height: 100px;
+    border: 10px double gray;
+}
 /* banner section ends  */
 
 /* contet section start  */
@@ -255,15 +276,114 @@ nav ul button:hover{
     display: flex;
     width: 80vw;
 }
-.main_column{
-    border: var(--one);
+.colums{
     width: 66%;
+}
+
+.main_column img{
+    border: 5px solid rgb(204, 197, 197);
+    margin: 3em 0 3em 0;
+}
+.main_column p{
+    margin: 2em 0 2em 0;
+}
+.main_column button{
+    margin: 2em 0 5em 0;
 }
 /* article section ends  */
 
 /* sidebar section start  */
 .sidebar{
+    padding: 0 1em 0 1em;
     width: 33%;
-    border: var(--two);
+    /* border: var(--two); */
+}
+.date{
+    background: #878787;
+    color: #fff;
+    font-weight: 400;
+    text-transform: uppercase;
+    border-radius: 4px;
+    border: 0;
+    box-shadow: 0.125em 0.175em 0 0 rgb(0 0 0 / 13%);
+    display: inline-block;
+    font-size: 0.85em;
+    letter-spacing: 2px;
+    padding: 0.75em 2em 0.75em 2em;
+    margin: 2rem 0 2.5em 0;
+}
+.sidebar p{
+    margin: 2rem 0 2rem 0;
+}
+.article_heading{
+    margin: 2rem 0 0 0;
+}
+.big_article img{
+    float: left;
+    margin: 0 1rem 1rem 0;
+    border: 5px solid rgb(204, 197, 197);
+}
+.big_article button{
+    margin:0 0 2rem 0 ;
 }
 /* sidebar section ends  */
+
+/* footer start  */
+footer{
+    background-color: #f0f0f0;
+    padding: 7rem;
+    /* text-align: center; */
+}
+.container {
+    /* border: var(--one); */
+    display: flex;
+}
+.left{
+    /* border: var(--two); */
+    width: 50%;
+}
+.container .right{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.name_pass{
+    display: flex;
+    justify-content: space-between;
+}
+.name_pass input{
+    width: 15vw;
+    padding: 1rem;
+    border-radius:5px ;
+}
+textarea{
+    border-radius: 5px;
+    width: 40vw;
+    height: 100px;
+}
+.info{
+    width: 90%;
+    display: flex;
+    /* border: var(--one); */
+    list-style: none;
+    justify-content: space-between;
+}
+.info_icons{
+    display: flex;
+    flex-direction: row;
+}
+.links{
+    list-style:none;
+    display: flex;
+}
+.links li{
+    padding: 0 1rem 0 1rem;
+}
+.footer-details{
+    padding: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+/* footer ends  */

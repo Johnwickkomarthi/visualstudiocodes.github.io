@@ -1,0 +1,28 @@
+body{
+    display: flex;
+}
+#div1{
+    border: 2px solid;
+    height: 500px;
+    width: 500px;
+    background-image: radial-gradient(circle closest-corner at 70% 70%, red, orange, blue, green);
+}
+#div2{
+    border: 2px solid;
+    height: 500px;
+    width: 500px;
+    background-image: radial-gradient(circle farthest-side at 70% 70%, red, orange, blue, green);
+}
+#div3{
+    border: 2px solid;
+    height: 500px;
+    width: 500px;
+    background-image: radial-gradient(circle closest-side at 70% 70%, red, orange, blue, green);
+}
+#div4{
+    border: 2px solid;
+    height: 500px;
+    width: 500px;
+    background-image: conic-gradient(circle closest-corner at 50% 50%, red, orange, blue, green);
+    
+}

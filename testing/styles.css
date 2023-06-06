@@ -1,0 +1,69 @@
+body{
+    padding: 1rem;
+}
+#h_navbar{
+    margin: 0 0 1rem 0;
+}
+#h_nav_items{
+    color:skyblue
+}
+#hidden{
+    display: none;
+}
+#carouselExampleCaptions{
+    margin: 2rem 0 1rem 0;
+}
+.cards {
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+   width: 30%; 
+}
+#accordionExample{
+    margin: 2rem 0 2rem 0;
+}
+
+#h_card_button{
+    width: 50%;
+}
+.btn-primary{
+    margin: 1rem;
+}
+.fas{
+    color: rgb(9, 8, 8);
+    padding: 10px;
+
+}
+.cells{
+    width: 400px;
+}
+.link{
+    text-decoration: none;
+}
+/* #div{
+    background-color: black;
+} */
+@media only screen and (max-width: 600px) {
+    #carouselExampleCaptions{
+        /* margin: 0 -1rem 0 -1rem; */
+    }
+    #hidden{
+        display:unset;
+    }
+    #first_name {
+        
+        margin: 0 0 1rem 0;
+    }
+    .cards{
+        display: flex;
+        flex-wrap: wrap;
+        justify-items: center;
+        display: inline;
+        margin: 0 1rem 0 1rem;
+    }
+    .card{
+        margin-bottom:  1rem;
+        width: 100%;
+    }
+}
