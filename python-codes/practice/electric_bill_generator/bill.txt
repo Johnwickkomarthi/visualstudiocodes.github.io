@@ -1,0 +1,13 @@
+                                    ELECTRICITY BILL    
+        Mr. Biller                                                              14 November 2022
+        Flat no 12A ABC Apartments XYZ Colony Indore Madhya Pradesh
+        
+            Total units used - 634
+            Load demand      - 4                               
+            
+                                                                    Total cost of unit used - 5500
+                                                                    Fixed charges           - 80
+                                                                    duty tax                - 20
+                                                                    electricity_tax         - 145.212
+                                                                    
+                Total: 8000

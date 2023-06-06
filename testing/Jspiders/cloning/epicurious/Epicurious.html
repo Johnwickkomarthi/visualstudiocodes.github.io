@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Epicurious</title>
+    <link rel="stylesheet" href="./Epicurious.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Poppins:ital,wght@0,300;1,200&family=Source+Sans+Pro&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sassy+Frass&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- nav bar start  -->
+    <nav>
+        <div class="nav-left">
+            <i style="color:#a1a1a1" title="Go to Main Navigation" class="fa-solid fa-bars"></i>
+            <i style="color:#a1a1a1" title="Saved Recipies" class="fa-solid fa-heart"></i>
+            <a id="nav_link" title="Sign In" href="">sign In</a>
+        </div>
+        <div class="nav-mid>
+            <img height="25px"
+            src="data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgNjEyIDEyOCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMTAwLjYgODguOWMtMi44IDAtNC41LTEuMS01LjUtMi44VjQwLjhjMS43LTEuMyAzLjgtMi4yIDYuMy0yLjIgOC43IDAgMTEuMSAxMS4yIDExLjEgMjQuMS0uMSAxOS4xLTUuNCAyNi4yLTExLjkgMjYuMnptMTAuNS02MC43Yy02LjYgMC0xMi4xIDMtMTYuMSA3LjZsLS41LTYuM0g3MS4ybC0uMSA5Ny45aDI0Vjk0LjdjMy4zIDIuOCA4IDQuNCAxMyA0LjQgMTYgMCAyOC0xNSAyOC0zNS41IDAtMTktOC4xLTM1LjQtMjUtMzUuNHptMjY2LjIgMS41aDIzLjl2NjcuOGgtMjMuOVYyOS43ek0zNzEgNDIuM2MwIDcuOS00LjUgMTMuMy0xMS44IDEzLjMtNy4yIDAtMTEtNS4yLTExLTEwLjIgMC0xLjcuNi01IDIuMy03LjUtMy0xLjYtMTEuNCAxLjgtMTQuNCAxMS42djQ4aC0yMy45VjI5LjdoMjMuNUwzMzYgNDFjNC4zLTguMSAxMC44LTEyLjggMTguOS0xMi44IDEwLjUgMCAxNi4xIDYuNiAxNi4xIDE0LjF6bS05Mi4yLTEyLjZoMjMuOXY2Ny44aC0yMy45di0xNWMtMi40IDYuNi04LjIgMTYuNi0yMC41IDE2LjYtMTIuOCAwLTE5LTEwLjEtMTktMjAuOVYzOS41YzAtNS4xLTEuNC03LjYtMy4zLTguNXYtMS4zaDI3LjJ2NDEuNmMwIDEwLjMgNC42IDExIDcuMyAxMSAzLjggMCA2LjYtMy4zIDguMy04VjI5Ljd6TTYxMiA3NS41YzAgMTMuNy0xMi4yIDIzLjQtMjkuNyAyMy40LTkuMiAwLTE4LTQuNi0yMy00LjYtMy42IDAtNC41IDEtNC41IDFsLS44LTE4LjhoMi4xYzkuNiAxMi43IDE2LjIgMTguMyAyNi4xIDE4LjMgNi40IDAgMTEuOC0zLjIgMTEuOC04LjcgMC01LjktNS4zLTcuMy0xMy05LjItMjAuNy01LjMtMjYuNS0xNC4zLTI2LjUtMjYuNCAwLTEzLjQgMTEuNy0yMi41IDI2LjMtMjIuNSA1IDAgOS43IDEgMTMuMyAyLjIgMi4yLjcgOC42IDMuNSAxMi45IDMuMnYxOC4yaC0yQzU5Ni45IDM5LjggNTg5LjkgMzIgNTgxIDMyYy01LjYgMC04LjggMy41LTguOCA4IDAgNS41IDUuMiA3IDE0LjUgOS43IDE2LjggNS4yIDI1LjMgMTEuNyAyNS4zIDI1Ljh6bS04OS4zLTQ1LjhoMjMuOXY2Ny44aC0yMy45di0xNWMtMi40IDYuNi04LjIgMTYuNi0yMC41IDE2LjYtMTIuOCAwLTE5LTEwLjEtMTktMjAuOVYzOS41YzAtNS4xLTEuNC03LjYtMy4zLTguNXYtMS4zaDI3LjJ2NDEuNmMwIDEwLjMgNC42IDExIDcuMyAxMSAzLjggMCA2LjYtMy4zIDguMy04VjI5Ljd6bS04MC43IDY1Yy02LjkgMC05LjQtOS40LTkuNC0zMS4yIDAtMjEuOCAyLjUtMzEuMiA5LjQtMzEuMnM5LjQgOS40IDkuNCAzMS4yYzAgMjEuOC0yLjYgMzEuMi05LjQgMzEuMnptMC02Ni41Yy0yMS42IDAtMzQuMSAxNS44LTM0LjEgMzUuMyAwIDE5LjUgMTIuNSAzNS4zIDM0LjEgMzUuM3MzNC0xNS44IDM0LTM1LjNjMC0xOS41LTEyLjUtMzUuMy0zNC0zNS4zem0tMjk5LjEgMS41aDIzLjl2NjcuOGgtMjMuOVYyOS43em04OSA0NS4zbDEuNS41Yy0xLjcgOS0xMCAyMy41LTI4LjcgMjMuNS0yMS4xIDAtMzEuMi0xNi40LTMxLjItMzUuNCAwLTIwLjQgMTMuNC0zNS41IDMzLjQtMzUuNSAxNC44IDAgMjMuOSA3LjkgMjMuOSAxNi40IDAgNS4yLTMuOSA5LjQtOS43IDkuNC00LjIgMC04LjUtMy45LTguNS04LjcgMC00LjkgMy03LjYgNi41LTguMi0xLjItMi4yLTMuMy0zLjktNy4xLTMuOS02LjUgMC0xMy45IDguMS0xMy45IDI3LjYgMCAxMi44IDYuMiAyNC4xIDE4LjkgMjQuMSAxMC4yIDAgMTQuOS05LjggMTQuOS05Ljh6bTE0NS42LTYzLjdjMC02IDUuMi0xMC44IDExLjctMTAuOCA2LjQgMCAxMS43IDQuOCAxMS43IDEwLjggMCA2LTUuMiAxMC44LTExLjcgMTAuOC02LjUgMC0xMS43LTQuOC0xMS43LTEwLjh6bS0yMzQuNCAwYzAtNiA1LjItMTAuOCAxMS43LTEwLjggNi40IDAgMTEuNyA0LjggMTEuNyAxMC44IDAgNi01LjIgMTAuOC0xMS43IDEwLjgtNi41IDAtMTEuNy00LjgtMTEuNy0xMC44ek0yNi44IDY0LjhDMjQuNyA1MC4xIDI4LjkgMzQgMzQuOSAzNGM2LjEgMCA4LjYgMTIuMSA4LjcgMjYuMmwtMTYuOCA0LjZ6bTcuOC0zNi41QzEyLjkgMjguMyAwIDQ0LjggMCA2My43IDAgNzUgNC41IDg1LjQgMTIuNiA5MmM1LjMgNC42IDEyLjMgNy40IDIwLjkgNy40IDIyLjIgMCAyOS43LTE4LjMgMzAuNy0yMy41aC0uMWMwLS4xIDAtLjIuMS0uM2wtMS41LS41cy03LjQgOS44LTE4LjYgOS44Yy0zLjUgMC02LjgtMS4yLTkuNi0zLjItMy4zLTIuNy01LjYtNi43LTYuNC0xMC45TDY1LjUgNjB2LS4zYy0uOC0xOC4zLTEzLjgtMzEuNC0zMC45LTMxLjR6IiBmaWxsPSIjRUY0MjI5Ii8+PC9zdmc+"
+            alt="">
+        </div>
+        <div class="nav-right">
+            <a id="nav_link" href="">Follow</a>
+            <i class="fa-brands fa-facebook-f nav-icon"></i>
+            <i class="fa-brands fa-twitter nav-icon"></i>
+            <i class="fa-brands fa-instagram nav-icon"></i>
+            <a id="nav_link" href="">Search <i class="fa-solid fa-magnifying-glass"></i></a>
+        </div>
+    </nav>
+    <!-- nav bar end  -->
+
+    <!-- main start  -->
+    <div class="container">
+        <div class="main">
+            <strong class="find-a-recipe" data-reactid="59">Find a Recipe</strong><br>
+            <i id="icon" class="fa-solid fa-magnifying-glass"></i><input type="text" name="" id="">
+            <p title="Advanced Search">Advanced search <i class="fa-solid fa-caret-right"></i></p>
+        </div>
+    </div>
+
+    <!-- main end  -->
+
+    <!-- sections start  -->
+    <section class="sections">
+        <div>
+            <section id="part1">
+                <img src="./Images/619ZeJ85-5L._SL1160_.jpg" alt="">
+                <p title="What's The Story of The Morning Glory?This Muffin Has Tales to Tell"></p>
+                <div>
+                    <p class="article-head">MUFFIN
+                    <p class="article-content">What's the Story of the Morning Glory? <br>This Muffin Has Tales to Tell
+                    </p>
+                    </p>
+                    <span class="article-author">BY MATTHEW ZURAS</span>
+                </div>
+
+            </section>
+            <section id="part2">
+                <article class="mini-article">
+                    <img title="51 Great Gifts For The Person Who Has Everything"
+                        src="./Images/jacobsen-salt-x-williams-sonoma-flake-salt-m.jpg" alt="" height="100px"
+                        width="100px">
+                    <span class="article-head">shopping</span>
+                    <span class="article-content">51 Great Gifts For The Person <br>Who Has Everything</span>
+                    <hr>
+                    <span class="article-author">BY EMILY FARRIS</span>
+                </article>
+                <article class="mini-article">
+                    <img title="You Can Find Everything You Need for This Wings , in Your Fridge Door"
+                        src="./Images/Sweet-and-Spicy-Sriracha-Chicken-Wings-0-6.jpg" alt="">
+                    <span class="article-head">chicken wing</span>
+                    <span class="article-content">You Can Find Everything You <br>Need for This Wings , in Your
+                        <br>Fridge Door</span>
+                    <hr>
+                    <span class="article-author">by jarrett melendez</span>
+                </article>
+
+            </section>
+        </div>
+    </section>
+    <!-- section ends  -->
+
+
+    <!-- the big guide start  -->
+    <div class="big-guide aligining">
+        <div class="aligining">
+            <section class="big-guide-main">
+                <button class="article-button-red"> THE BIG GUIDE </button>
+                <img src="./Images/1487538507012.jpeg" alt="">
+            </section>
+        </div>
+        <div class="big-guide-articles">
+            <div class="big-guide-article1">
+                <h4 class="linked-article">An Exhaustive Guide to the Best Coffee Makers We've Ever Reviewed</h4>
+                <p class="dek" data-reactid="127">It's time to upgrade your cup.</p>
+                <p id="big-guide-article1-link" title="view complete guide">view complete guide <i
+                        class="fa-solid fa-caret-right"></i></p>
+            </div>
+            <hr>
+            <div class="big-guide-article2">
+                <div class="big-guide-side-article"><img src="./Images/easy-chocolate-dessert-1-1.jpg" alt="">
+                    <h5 class="hed" data-reactid="133">Your Chemex Has Some Tricks up Its Sleeve</h5>
+                </div>
+                <div class="big-guide-side-article"><img src="./Images/FINAL-vegan-black-bean-chili-1-9.jpg" alt="">
+                    <h5 class="hed" data-reactid="138">How to Make Pour-Over Coffee Like a Pro</h5>
+                </div>
+                <div class="big-guide-side-article"><img src="./Images/flourless-chocolate-cake.jpg" alt="">
+                    <h5 class="hed" data-reactid="143">The Best Travel Coffee Mugs for Hot and Cold Beverages on the Go
+                    </h5>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <hr>
+    <!-- the big guide ends  -->
+
+    <!-- cards start start -->
+    <div class="cards">
+        <article class="mini-article card">
+            <img title="51 Great Gifts For The Person Who Has Everything"
+                src="./Images/jacobsen-salt-x-williams-sonoma-flake-salt-m.jpg" alt="" height="100px"
+                width="100px">
+            <span class="article-head">shopping</span>
+            <span class="article-content">51 Great Gifts For The Person <br>Who Has Everything</span>
+            <hr>
+            <span class="article-author">BY EMILY FARRIS</span>
+        </article>
+        <article class="mini-article card">
+            <img title="51 Great Gifts For The Person Who Has Everything"
+                src="./Images/jacobsen-salt-x-williams-sonoma-flake-salt-m.jpg" alt="" height="100px"
+                width="100px">
+            <span class="article-head">shopping</span>
+            <span class="article-content">51 Great Gifts For The Person <br>Who Has Everything</span>
+            <hr>
+            <span class="article-author">BY EMILY FARRIS</span>
+        </article>
+        <article class="mini-article card">
+            <img title="51 Great Gifts For The Person Who Has Everything"
+                src="./Images/jacobsen-salt-x-williams-sonoma-flake-salt-m.jpg" alt="" height="100px"
+                width="100px">
+            <span class="article-head">shopping</span>
+            <span class="article-content">51 Great Gifts For The Person <br>Who Has Everything</span>
+            <hr>
+            <span class="article-author">BY EMILY FARRIS</span>
+        </article>
+        <article class="mini-article card">
+            <img title="51 Great Gifts For The Person Who Has Everything"
+                src="./Images/jacobsen-salt-x-williams-sonoma-flake-salt-m.jpg" alt="" height="100px"
+                width="100px">
+            <span class="article-head">shopping</span>
+            <span class="article-content">51 Great Gifts For The Person <br>Who Has Everything</span>
+            <hr>
+            <span class="article-author">BY EMILY FARRIS</span>
+        </article>
+    </div>
+    <!-- cards ends  -->
+    <!-- our-new-receips start  -->
+    <div class="our-new-receips">
+        <h1>Our Newest Receips</h1>
+        <div class="our-new-receips-menu">
+            <div class="our-new-receips-list"><img src="Images/thali_650x400_61508157304.jpg" alt="">
+                <p><a href="/recipes/food/views/pollo-rostizado-con-naranja-y-chile-de-arbol-orange-and-chile-roast-chicken"
+                        title="Pollo Rostizado con (Orange-and-Chile-Roast Chicken)" data-track-source="newest-recipes"
+                        data-reactid="276" data-uri="c468a4ffb1c5a11a1ef677b67d4bd74f">Pollo Rostizado con Naranja y
+                        Chile de Árbol <br>(Orange-and-Chile-Roast Chicken)</a></p><span>Epicurious</span>
+            </div>
+            <div class="our-new-receips-list"><img src="Images/Sweet-and-Spicy-Sriracha-Chicken-Wings-0-6.jpg" alt="">
+                <p><a href="/recipes/food/views/plantain-and-refried-bean-quesadillas"
+                        title="Plantain and Refried Bean Quesadillas" data-track-source="newest-recipes"
+                        data-reactid="288" data-uri="1bd8653f11d05f164318c84165627393">Plantain and Refried Bean
+                        Quesadillas</a></p><span>Pati's Mexican Table</span>
+            </div>
+            <div class="our-new-receips-list"><img src="Images/strawberry-cake-from-scratch.jpg" alt="">
+                <p><a href="/recipes/food/views/tacos-arabes-puebla-style-pork-tacos"
+                        title="Tacos Árabes (Puebla-Style Pork Tacos)" data-track-source="newest-recipes"
+                        data-reactid="300" data-uri="727c56e4db187a2bcb5cd9b7eee2695a">Tacos Árabes (Puebla-Style Pork
+                        Tacos)</a></p><span>Pati Jinich Treasures Of The Mexican Table</span>
+            </div>
+            <div class="our-new-receips-list"><img src="Images/salted-caramel-apple-pie-recipe-7.jpg" alt="">
+                <p><a href="/recipes/food/views/blueberry-muffin-recipe" title="Classic Blueberry Muffins"
+                        data-track-source="newest-recipes" data-reactid="312"
+                        data-uri="44dce7422327e250cfed8e6dbb844910">Classic Blueberry Muffins</a></p>
+                <span>Epicurious</span>
+            </div>
+            <div class="our-new-receips-list"><img src="Images/Passion-Fruit-Cake-Feat-1-500x500.jpg" alt="">
+                <p><a href="/recipes/food/views/salted-caramel-apple-pie" title="Salted Caramel Apple Pie"
+                        data-track-source="newest-recipes" data-reactid="324"
+                        data-uri="6929d253c342dce63f02c167738b8f79">Salted Caramel Apple Pie</a></p>
+                <span>Epicurious</span>
+            </div>
+        </div>
+    </div>
+    <!-- our-new-receips ends  -->
+
+
+    <!-- cook this now start  -->
+
+    <div class="cook-this-now">
+        <img src="./Images/1487538507012.jpeg" alt="">
+        <div class="cook-this-now-article">
+            <button>cook this now</button>
+            <a class="linked-article" data-track-location="section2" data-track-source="rotd"
+                href="/recipes/food/views/blueberry-muffin-recipe" title="Classic Blueberry Muffins" data-reactid="333"
+                data-uri="44dce7422327e250cfed8e6dbb844910">Classic Blueberry Muffins</a>
+            <p>Chock-full of berries, our ultimate muffins have just the right amount of sweetness, plus a gentle tang
+                and tender crumb thanks to sour cream.</p>
+            <p id="big-guide-article1-link" title="View Recipe">View Recipe <i class="fa-solid fa-caret-right"></i></p>
+        </div>
+    </div>
+    <!-- cook this now end  -->
+
+    <!-- links and partener start  -->
+
+    <div class="links-parteners">
+        <div class="parteners">
+            <div class="our-partenrs">
+                <img src="./Images/gourmet.JPG" alt="">
+                <p>View recipes</p>
+            </div>
+            <div class="our-partenrs">
+                <img src="./Images/bon.jpg" alt="">
+                <p>View recipes</p>
+            </div>
+            <div class="our-partenrs">
+                <img src="./Images/self.jpg" alt="">
+                <p>View recipes</p>
+            </div>
+
+            <div class="our-partenrs">
+                <img src="./Images/penguine.jpg" alt="">
+                <p>View recipes</p>
+            </div>
+            <div class="our-partenrs">
+                <img src="./Images/weee.jpg" alt="">
+                <p>View recipes</p>
+            </div>
+            <div class="our-partenrs">
+                <img src="./Images/har.jpg" alt="">
+                <p>View recipes</p>
+            </div>
+        </div>
+        <hr>
+        <div id="links">
+            <div class="quick-links">
+                <h4>
+                    QUICK LINKS
+                </h4>
+                <P>lorem Receips</P>
+                <P>lorem Receips</P>
+                <P>lorem Receips</P>
+                <P>lorem Receips</P>
+                <P>lorem Receips</P>
+                <P>lorem Receips</P>
+                <P>lorem Receips</P>
+                <P>lorem Receips</P>
+                <P>lorem Receips</P>
+                <P>lorem Receips</P>
+            </div>
+            <hr>
+            <div class="the-best-of">
+                <h4>THE BEST OF</h4>
+                <p>lorem recipes</p>
+                <p>lorem recipes</p>
+                <p>lorem recipes</p>
+                <p>lorem recipes</p>
+                <p>lorem recipes</p>
+                <p>lorem recipes</p>
+                <p>lorem recipes</p>
+                <p>lorem recipes</p>
+                <p>lorem recipes</p>
+                <p>lorem recipes</p>
+            </div>
+            <hr>
+            <div class="epicurious-classics">
+                <h4>EPICURIOUS CLASSISCS</h4>
+                <p>lorem Receips</p>
+                <p>lorem Receips</p>
+                <p>lorem Receips</p>
+                <p>lorem Receips</p>
+                <p>lorem Receips</p>
+                <p>lorem Receips</p>
+                <p>lorem Receips</p>
+                <p>lorem Receips</p>
+                <p>lorem Receips</p>
+                <p>lorem Receips</p>
+            </div>
+        </div>
+
+    </div>
+    <!-- links and partenrs ends  -->
+
+    <!-- Epicurious red start  -->
+<div class="epicurious-red">
+    <div class="epicurious-red-logo">
+        <h2>epicurious</h2>
+        <div class="logs">
+            <i class="fa-brands fa-facebook-f nav-icon"></i>
+            <i class="fa-brands fa-twitter nav-icon"></i>
+            <i class="fa-brands fa-instagram nav-icon"></i>
+            <i class="fa-brands fa-facebook-f nav-icon"></i>
+            <i class="fa-brands fa-twitter nav-icon"></i>
+            <i class="fa-brands fa-instagram nav-icon"></i>
+            
+        </div>
+
+    </div>
+    <div class="site-map white">
+        <h4>SITE MAP</h4>
+        <p>lorem link</p>
+        <p>lorem link</p>
+        <p>lorem link</p>
+        <p>lorem link</p>
+        <p>lorem link</p>
+    </div>
+    <div class="helpful-links white">
+        <h4>HELP FUL LINKS</h4>
+        <p>lorem links</p>
+        <p>lorem links</p>
+        <p>lorem links</p>
+        <p>lorem links</p>
+        <p>lorem links</p>
+        <p>lorem links</p>
+        <p>lorem links</p>
+        <p>lorem links</p>
+    </div>
+    <div class="food-innovation-group white">
+        <h4>FOOD INNOVATION GROUP</h4>
+        <p>lorem links</p>
+        <p>lorem links</p>
+        <p>lorem links</p>
+        <p>lorem links</p>
+    </div>
+</div>
+
+    <!-- Epicurious red ends  -->

@@ -1,0 +1,53 @@
+
+html {
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  body { 
+    margin:0;
+    padding:0;
+      perspective: 1px;
+      transform-style: preserve-3d;
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+
+  section{
+    font-size: 2rem;
+    letter-spacing: 5px;
+    background-color: black;
+    color: white;
+    z-index: 5;
+}
+.wrapper{
+    position: relative;
+    transform-style: inherit;
+}
+#slide1{
+    background-image: url("https://picsum.photos/640/480");
+    background-size: cover;
+    z-index: -5;
+    transform: translateZ(-1px) scale(2);
+}
+#slide2{
+    background-image: url("https://picsum.photos/640/480");
+    background-size: cover;
+    z-index: -5;
+    height: 100vh;
+    transform: translateZ(-1px) scale(2);
+}
+div{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.heading{
+    position: relative;
+    color: blue;
+    font-size: 50px;
+    text-shadow: 0 0 10px 0 black;
+    transform: translateZ(1px) scale(0.5);
+}

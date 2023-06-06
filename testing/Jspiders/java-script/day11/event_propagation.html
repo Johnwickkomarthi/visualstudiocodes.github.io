@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>event propagation</title>
+    <style>
+      .grand_parent {
+        height: 800px;
+        width: 800px;
+        border: 2px solid;
+        display: flex;
+      }
+      .parent {
+        height: 250px;
+        width: 250px;
+        border: 2px solid;
+        margin: 50px;
+      }
+      .child {
+        height: 100px;
+        width: 100px;
+        border: 2px solid;
+        margin: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="grand_parent" id="grand_parent">
+      grand parent
+      <div class="parent" id="parent">
+        parent
+        <div class="child" id="child">child</div>
+      </div>
+    </div>
+
+    <div class="grand_parent" id="grand_parent1">
+      grand parent1
+      <div class="parent" id="parent2">
+        parent2
+        <div class="child" id="child1">child 1</div>
+      </div>
+      <div class="parent" id="parent1">parent 1</div>
+    </div>
+
+    <!-- ===================================== -->
+
+    <div class="grand_parent" id="grand_parent2">
+      grand parent2
+      <div class="parent" id="parent3">
+        parent3
+        <div class="child" id="child2">child2</div>
+      </div>
+      <div class="parent" id="parent4">
+        parent4
+        <div class="child" id="child4">child4</div>
+      </div>
+    </div>
+    <script src="event_propagation.js"></script>
+  </body>
+</html>

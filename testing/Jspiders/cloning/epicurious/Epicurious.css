@@ -1,0 +1,411 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+:root{
+    --main:1px solid;
+    --parent:2px solid red;
+    --child:2px solid green;
+    --link_primary:#a1a1a1;
+    --arvo:'Arvo', serif;
+    --pop:'Poppins', sans-serif;
+    --pro:'Source Sans Pro', sans-serif;
+}
+/* nav bar start  */
+.aligining{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+nav{
+    z-index: 12;
+    padding: 0.3rem 1.5rem 0.3rem 1.5rem;
+    height: 7vh;
+    position: sticky;
+    top:0%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: center;
+    background-color: white;
+    /* border: var(--main); */
+}
+    #nav_link{
+        color: var(--link_primary);
+        text-decoration: none;
+        font-family: var(--pro);
+    }
+.nav-left{
+    width: 10%;
+    /* border: var(--parent); */
+    display: flex;
+    justify-content: space-between;
+}
+    .nav-left i{
+        /* color: var(--link_primary); */
+        font-size: 1.5rem;
+    }
+    .nav-left i:hover{
+        color: black;
+    }
+/* .nav-mid img{
+    /* border: var(--parent); 
+} */
+.nav-right{
+    padding: 0.2rem;
+    width: 15%;
+    /* border: var(--parent); */
+    display: flex;
+    justify-content: space-between;
+}
+.nav-icon{
+    font-size: 0.75rem;
+    background-color: red;
+    color: white;
+    padding: 0.3rem 0.4rem 0.3rem 0.4rem;
+    border-radius: 100%;
+}
+ /* nav bar end  */
+
+ /* main start  */
+.find-a-recipe{
+    font-size: 4rem;
+   
+}
+.main input{
+    padding: 1rem 8rem 1rem 8rem;
+    border: none;
+    margin: 1rem 0 1rem 0;
+}
+#icon{
+    background-color: white;
+    
+    padding: 0.9rem 1rem 1.1rem 1rem;
+}
+.container{
+    background-image: url("Images/28-Cheese.jpg\ 2x.jpg\ 2x.jpg\ 2x");
+    height: 65vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+/* main end  */
+
+/* sections start  */
+.sections{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+
+}
+#part1{
+    /* border: 2px solid; */
+   
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+}
+    #part1 img{
+        outline: 2px solid white;
+        outline-offset: -1.5rem;
+        width: 40vw;
+        height: 60vh;
+    }
+    #part1 div{
+        margin-left: 7rem;
+        width: 40%;
+        margin-top: -2rem;
+        background-color: white;
+        /* border: var(--parent); */
+    }
+#part2{
+    /* border: var(--parent); */
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-between;
+    width: 65vw;
+}
+    #part2 img{
+        width: 300px;
+        height: 400px;
+    }
+.article-head{
+    margin: 0.5rem 0 0.5rem 0;
+    color: var(--link_primary);
+}
+.article-content{
+    font-size: 1.5rem;
+    margin: 0.5rem 0 0.5rem 0;
+}
+.article-author{
+    margin: 0.5rem 0 0.5rem 0;
+    color: red;
+}
+.mini-article{
+    /* border: var(--child); */
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+/* section ends  */
+
+
+/* the big guide start  */
+
+.big-guide{
+    margin: 2rem;
+    /* border: var(--main); */
+}
+
+/* .aligining{
+    border: var(--main);
+} */
+.big-guide-main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+    /* border: var(--parent); */
+}
+ .big-guide-main button{
+     width: 10rem;
+     padding: 0.5rem 1rem 0.5rem 1rem;
+     margin-left: 15rem;
+     margin-bottom: -1rem;
+     z-index: 2;
+     background-color: red;
+     color: white;
+     border: none;
+     
+ }
+.big-guide-articles{
+    display: flex;
+    justify-content: space-around;
+    /* border: var(--parent); */
+}
+.big-guide-article1{
+    margin-left: 9rem;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* border: var(--child); */
+}
+ .linked-article{
+     padding: 1rem 0 1rem 0;
+     font-size: 2rem;
+     text-decoration: none;
+     color: black;
+ }
+#big-guide-article1-link{
+    padding: 1rem 0 1rem 0;
+    color: red;
+}
+.big-guide-article2{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    /* border: var(--child); */
+}
+    .big-guide-article2 img{
+        padding: 0.5rem;
+        height: 100px;
+        width: 100px;
+    }
+.big-guide-side-article{
+    /* border: var(--child); */
+    width: 50%;
+    display: flex;
+    padding: 1rem 0 1rem 0;
+    justify-content: space-between;
+}
+
+.big-guide-side-article h5{
+    font-size:1.5rem ;
+}
+
+
+ /* the bug guide start  */
+/* cards start  */
+ .cards{
+    margin-left: 25rem;
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+ }
+ .card{
+    margin: 2rem;
+ }
+ .card img{
+    height: 250px;
+    width: 300px;
+ }
+/* cards ends  */
+ /* our new recepis satrt  */
+.our-new-receips{
+    margin: 2rem 0 0 0;
+    background-color: #f1f2f2;
+    height: 60vh;
+}
+    .our-new-receips h1{
+        text-align: center;
+        padding: 2rem;
+
+    }
+    .our-new-receips h1::before{
+        content: "";
+        display: block;
+        border:1px solid grey;
+        width: 30%;
+        margin-bottom: -20px;
+        margin-left: 10%;
+    }
+    .our-new-receips h1::after{
+        content: "";
+        display: block;
+        border:1px solid grey;
+        width: 30%;
+        margin-top: -20px;
+        right: 10%;
+        position: absolute;
+    }
+.our-new-receips-menu{
+    display: flex;
+    justify-content: space-between;
+    /* border: var(--parent); */
+    margin: 0 12rem 0 14rem;
+}
+.our-new-receips-list{
+    /* border: var(--child); */
+    text-align: center;
+}
+    .our-new-receips-list img{
+        border-radius: 100%;
+        width: 200px;
+        padding: 0.5rem;
+        height: 200px;
+    }
+    .our-new-receips-list a{
+        text-decoration: none;
+        color: black;
+        
+    }
+    .our-new-receips-list p{
+        margin: 0.5rem 0 0.5rem 0;
+    }
+    .our-new-receips-list span{
+        color: var(--link_primary);
+    }
+ /* our new receips ends  */
+
+ /* cook this now start  */
+.cook-this-now{
+    display: flex;
+    margin: 1rem 10rem 1rem 10rem;
+}
+    .cook-this-now img{
+        z-index: -1;
+        width: 100%;
+        height: 80vh;
+        outline: 2px solid white;
+        outline-offset: -1.5rem;
+    }
+.cook-this-now-article{
+    margin-top: 8rem;
+    right: 15rem;
+    /* border: var(--child); */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 15rem;
+    justify-content: center;align-items: center;
+    width: 25rem;
+    position: absolute;
+    background-color: white;
+}
+    .cook-this-now-article button{
+        width: 10rem;
+        padding: 0.5rem 1rem 0.5rem 1rem;     
+        z-index: 2;
+        background-color: red;
+        color: white;
+        border: none;
+        margin-top: -4rem;
+    }
+
+    /* cook this now  */
+
+/* links and parteners starts  */
+.links-parteners{
+    background-color: #f1f2f2;
+}
+.parteners{
+    height: 100vh;
+    
+    display: flex;
+    padding: 2rem 18rem 2rem 18rem ;
+    flex-wrap:wrap ;
+    /* justify-content: space-between; */
+}
+.our-partenrs{
+    margin: 0 1rem 0 1rem;
+    /* border: var(--child); */
+    height: 8rem;
+}
+
+#links{
+    padding: 2rem 18rem 2rem 18rem ;
+    display: flex;
+    justify-content: space-between;
+}
+    #links h4{
+        margin-bottom: 2rem;
+    }
+    #links p{
+        margin: 0.75rem 0 0.75rem ;
+    }
+/* links and parteners ends  */
+
+/* Epicurious red start */
+.epicurious-red{
+    display: flex;
+    height: 50vh;
+    background-color: red;
+    padding: 2rem 15rem 2rem 15rem ;
+    justify-content: space-between;
+}
+    .epicurious-red h2{
+        color: white;
+        font-size: 2.5rem;
+    }
+.logs i{
+    font-size: 1rem;
+    padding: 0.5rem;margin: 0.25rem;
+    background-color: white;
+    color: red;
+    border: var(--main);
+}
+.epicurious-red-logo{
+    margin-right: 8rem;
+}
+.white{
+    color: white;
+}
+    .white h4{
+        margin: 1rem 0 1rem 0;
+    }
+    .white p{
+        margin: 0.5rem 0 0.5rem 0;
+    }
+/* Epicurious red end */

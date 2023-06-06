@@ -1,0 +1,1324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FSHINV01>
+   <IDOC BEGIN="1">
+      <EDI_DC40 SEGMENT="1">
+         <TABNAM>EDI_DC40</TABNAM>
+         <MANDT>400</MANDT>
+         <DOCNUM>0000000003026921</DOCNUM>
+         <DOCREL>756</DOCREL>
+         <STATUS>30</STATUS>
+         <DIRECT>1</DIRECT>
+         <OUTMOD>2</OUTMOD>
+         <IDOCTYP>FSHINV01</IDOCTYP>
+         <MESTYP>INVOIC</MESTYP>
+         <MESCOD>SPS</MESCOD>
+         <SNDPOR>SAPGFP</SNDPOR>
+         <SNDPRT>LS</SNDPRT>
+         <SNDPRN>GFPCLNT400</SNDPRN>
+         <RCVPOR>DELLBOOMI</RCVPOR>
+         <RCVPRT>KU</RCVPRT>
+         <RCVPFC>RE</RCVPFC>
+         <RCVPRN>2000000525</RCVPRN>
+         <CREDAT>20230502</CREDAT>
+         <CRETIM>183023</CRETIM>
+         <SERIAL>20230502183023</SERIAL>
+      </EDI_DC40>
+      <E1EDK01 SEGMENT="1">
+         <CURCY>USD</CURCY>
+         <HWAER>USD</HWAER>
+         <WKURS>1.00000</WKURS>
+         <ZTERM>N030</ZTERM>
+         <BSART>INVO</BSART>
+         <BELNR>7000000180</BELNR>
+         <RECIPNT_NO>2000000525</RECIPNT_NO>
+         <FKTYP>L</FKTYP>
+         <LANDTX>US</LANDTX>
+         <STCEG_L>US</STCEG_L>
+      </E1EDK01>
+      <E1EDKA1 SEGMENT="1">
+         <PARVW>RI</PARVW>
+         <NAME1>Reebok International Ltd.</NAME1>
+         <STRAS>DEPT CH 19405</STRAS>
+         <ORT01>Palatine</ORT01>
+         <PSTLZ>600559405</PSTLZ>
+         <LAND1>US</LAND1>
+         <REGIO>IL</REGIO>
+      </E1EDKA1>
+      <E1EDKA1 SEGMENT="1">
+         <PARVW>WE</PARVW>
+         <PARTN>2100015837</PARTN>
+         <LIFNR>00015</LIFNR>
+         <NAME1>BOSCOVS DC #00015</NAME1>
+         <NAME2>STORE #00015</NAME2>
+         <NAME3>DC    #00015</NAME3>
+         <STRAS>5 BIRCHMONT DR</STRAS>
+         <ORT01>READING</ORT01>
+         <PSTLZ>19606</PSTLZ>
+         <LAND1>US</LAND1>
+         <REGIO>PA</REGIO>
+      </E1EDKA1>
+      <E1EDKA1 SEGMENT="1">
+         <PARVW>RS</PARVW>
+         <LIFNR>2000000525</LIFNR>
+         <NAME1>Reebok International Ltd., LLC</NAME1>
+         <STRAS>25 Drydock Ave, Suite 110</STRAS>
+         <ORT01>Boston</ORT01>
+         <PSTLZ>022102636</PSTLZ>
+         <LAND1>US</LAND1>
+         <SPRAS>E</SPRAS>
+         <REGIO>MA</REGIO>
+         <BNAME>DATALOAD11</BNAME>
+         <PAORG>1100</PAORG>
+      </E1EDKA1>
+      <E1EDKA1 SEGMENT="1">
+         <PARVW>AG</PARVW>
+         <PARTN>2000000525</PARTN>
+         <NAME1>BOSCOVS DEPT STORES INC</NAME1>
+         <NAME2>ATTN ACCOUNTS PAYABLE</NAME2>
+         <NAME4>1104994</NAME4>
+         <STRAS>P O BOX 4131</STRAS>
+         <ORT01>READING</ORT01>
+         <PSTLZ>196060531</PSTLZ>
+         <LAND1>US</LAND1>
+         <TELF1>(610)929-7375</TELF1>
+         <SPRAS>E</SPRAS>
+         <REGIO>PA</REGIO>
+         <SPRAS_ISO>EN</SPRAS_ISO>
+      </E1EDKA1>
+      <E1EDKA1 SEGMENT="1">
+         <PARVW>RE</PARVW>
+         <PARTN>2000000525</PARTN>
+         <NAME1>BOSCOVS DEPT STORES INC</NAME1>
+         <NAME2>ATTN ACCOUNTS PAYABLE</NAME2>
+         <NAME4>1104994</NAME4>
+         <STRAS>P O BOX 4131</STRAS>
+         <ORT01>READING</ORT01>
+         <PSTLZ>196060531</PSTLZ>
+         <LAND1>US</LAND1>
+         <TELF1>(610)929-7375</TELF1>
+         <SPRAS>E</SPRAS>
+         <REGIO>PA</REGIO>
+         <SPRAS_ISO>EN</SPRAS_ISO>
+      </E1EDKA1>
+      <E1EDKA1 SEGMENT="1">
+         <PARVW>RG</PARVW>
+         <PARTN>2000000525</PARTN>
+         <NAME1>BOSCOVS DEPT STORES INC</NAME1>
+         <NAME2>ATTN ACCOUNTS PAYABLE</NAME2>
+         <NAME4>1104994</NAME4>
+         <STRAS>P O BOX 4131</STRAS>
+         <ORT01>READING</ORT01>
+         <PSTLZ>196060531</PSTLZ>
+         <LAND1>US</LAND1>
+         <TELF1>(610)929-7375</TELF1>
+         <SPRAS>E</SPRAS>
+         <REGIO>PA</REGIO>
+         <SPRAS_ISO>EN</SPRAS_ISO>
+      </E1EDKA1>
+      <E1EDKA1 SEGMENT="1">
+         <PARVW>BK</PARVW>
+         <LIFNR>1100</LIFNR>
+         <NAME1>Reebok International Ltd, LLC (RIL)</NAME1>
+         <STRAS>25 Drydock Ave</STRAS>
+         <ORT01>Boston</ORT01>
+         <COUNC>MA</COUNC>
+         <PSTLZ>02210</PSTLZ>
+         <LAND1>US</LAND1>
+         <REGIO>MA</REGIO>
+      </E1EDKA1>
+      <E1EDK02 SEGMENT="1">
+         <QUALF>BOL</QUALF>
+         <BELNR>06629198013589580</BELNR>
+         <DATUM>20230501</DATUM>
+      </E1EDK02>
+      <E1EDK02 SEGMENT="1">
+         <QUALF>009</QUALF>
+         <BELNR>7000000180</BELNR>
+         <DATUM>20230501</DATUM>
+      </E1EDK02>
+      <E1EDK02 SEGMENT="1">
+         <QUALF>001</QUALF>
+         <BELNR>151645</BELNR>
+         <DATUM>20230424</DATUM>
+      </E1EDK02>
+      <E1EDK02 SEGMENT="1">
+         <QUALF>002</QUALF>
+         <BELNR>1000007874</BELNR>
+         <DATUM>20230424</DATUM>
+      </E1EDK02>
+      <E1EDK02 SEGMENT="1">
+         <QUALF>012</QUALF>
+         <BELNR>5000000367</BELNR>
+         <DATUM>20230501</DATUM>
+      </E1EDK02>
+      <E1EDK02 SEGMENT="1">
+         <QUALF>017</QUALF>
+         <BELNR>7000000180</BELNR>
+      </E1EDK02>
+      <E1EDK02 SEGMENT="1">
+         <QUALF>087</QUALF>
+         <BELNR>151645</BELNR>
+      </E1EDK02>
+      <E1EDK03 SEGMENT="1">
+         <IDDAT>010</IDDAT>
+         <DATUM>20230501</DATUM>
+      </E1EDK03>
+      <E1EDK03 SEGMENT="1">
+         <IDDAT>026</IDDAT>
+         <DATUM>20230501</DATUM>
+      </E1EDK03>
+      <E1EDK03 SEGMENT="1">
+         <IDDAT>001</IDDAT>
+         <DATUM>20230501</DATUM>
+      </E1EDK03>
+      <E1EDK03 SEGMENT="1">
+         <IDDAT>022</IDDAT>
+         <DATUM>20230424</DATUM>
+      </E1EDK03>
+      <E1EDK03 SEGMENT="1">
+         <IDDAT>012</IDDAT>
+         <DATUM>20230502</DATUM>
+      </E1EDK03>
+      <E1EDK03 SEGMENT="1">
+         <IDDAT>011</IDDAT>
+         <DATUM>20230502</DATUM>
+      </E1EDK03>
+      <E1EDK03 SEGMENT="1">
+         <IDDAT>024</IDDAT>
+         <DATUM>20230501</DATUM>
+      </E1EDK03>
+      <E1EDK03 SEGMENT="1">
+         <IDDAT>028</IDDAT>
+         <DATUM>20230531</DATUM>
+      </E1EDK03>
+      <E1EDK03 SEGMENT="1">
+         <IDDAT>048</IDDAT>
+         <DATUM>20230501</DATUM>
+      </E1EDK03>
+      <E1EDK17 SEGMENT="1">
+         <QUALF>001</QUALF>
+         <LKOND>FOB</LKOND>
+         <LKTEXT>Free on board</LKTEXT>
+      </E1EDK17>
+      <E1EDK17 SEGMENT="1">
+         <QUALF>002</QUALF>
+         <LKOND>FOB</LKOND>
+         <LKTEXT>EXW</LKTEXT>
+      </E1EDK17>
+      <E1EDK18 SEGMENT="1">
+         <QUALF>001</QUALF>
+         <TAGE>30</TAGE>
+         <PRZNT>0</PRZNT>
+         <ZTERM_TXT>Up to 05/31/2023 without deduction</ZTERM_TXT>
+      </E1EDK18>
+      <E1EDK18 SEGMENT="1">
+         <QUALF>005</QUALF>
+         <ZTERM_TXT>NET 30 days</ZTERM_TXT>
+      </E1EDK18>
+      <E1EDK28 SEGMENT="1">
+         <BCOUN>US</BCOUN>
+         <BRNUM>021001088</BRNUM>
+         <BNAME>HSBC BANK USA, N.A.</BNAME>
+         <BALOC>BUFFALO, NY 14203</BALOC>
+         <ACNUM>797024662</ACNUM>
+         <ACNAM>Reebok International Ltd., LLC</ACNAM>
+      </E1EDK28>
+      <E1EDKT1 SEGMENT="1">
+         <TDID>Z007</TDID>
+         <TSSPRAS>E</TSSPRAS>
+         <TSSPRAS_ISO>EN</TSSPRAS_ISO>
+         <E1EDKT2 SEGMENT="1">
+            <TDLINE>469373906</TDLINE>
+            <TDFORMAT>*</TDFORMAT>
+         </E1EDKT2>
+      </E1EDKT1>
+      <E1EDKT1 SEGMENT="1">
+         <TDID>Z012</TDID>
+         <TSSPRAS>E</TSSPRAS>
+         <TSSPRAS_ISO>EN</TSSPRAS_ISO>
+         <E1EDKT2 SEGMENT="1">
+            <TDLINE>NPME</TDLINE>
+            <TDFORMAT>*</TDFORMAT>
+         </E1EDKT2>
+      </E1EDKT1>
+      <E1EDKT1 SEGMENT="1">
+         <TDID>Z013</TDID>
+         <TSSPRAS>E</TSSPRAS>
+         <TSSPRAS_ISO>EN</TSSPRAS_ISO>
+         <E1EDKT2 SEGMENT="1">
+            <TDLINE>NEW PENN MOTOR EXPRESS</TDLINE>
+            <TDFORMAT>*</TDFORMAT>
+         </E1EDKT2>
+      </E1EDKT1>
+      <E1EDKT1 SEGMENT="1">
+         <TDID>Z015</TDID>
+         <TSSPRAS>E</TSSPRAS>
+         <TSSPRAS_ISO>EN</TSSPRAS_ISO>
+         <E1EDKT2 SEGMENT="1">
+            <TDLINE>23008784</TDLINE>
+            <TDFORMAT>*</TDFORMAT>
+         </E1EDKT2>
+      </E1EDKT1>
+      <E1EDK14 SEGMENT="1">
+         <QUALF>008</QUALF>
+         <ORGID>1100</ORGID>
+      </E1EDK14>
+      <E1EDK14 SEGMENT="1">
+         <QUALF>007</QUALF>
+         <ORGID>10</ORGID>
+      </E1EDK14>
+      <E1EDK14 SEGMENT="1">
+         <QUALF>006</QUALF>
+         <ORGID>99</ORGID>
+      </E1EDK14>
+      <E1EDK14 SEGMENT="1">
+         <QUALF>015</QUALF>
+         <ORGID>ZF2</ORGID>
+      </E1EDK14>
+      <E1EDK14 SEGMENT="1">
+         <QUALF>003</QUALF>
+         <ORGID>1100</ORGID>
+      </E1EDK14>
+      <E1EDK14 SEGMENT="1">
+         <QUALF>021</QUALF>
+         <ORGID>M</ORGID>
+      </E1EDK14>
+      <E1EDK14 SEGMENT="1">
+         <QUALF>016</QUALF>
+         <ORGID>USSG</ORGID>
+      </E1EDK14>
+      <E1EDP01 SEGMENT="1">
+         <POSEX>000100</POSEX>
+         <MENGE>2.000</MENGE>
+         <MENEE>PR</MENEE>
+         <PSTYV>ZTAN</PSTYV>
+         <WERKS>3500</WERKS>
+         <SGT_RCAT>WHSL</SGT_RCAT>
+         <SGT_SCAT>WHSL</SGT_SCAT>
+         <REQ_SEG_LONG>WHSL</REQ_SEG_LONG>
+         <STK_SEG_LONG>WHSL</STK_SEG_LONG>
+         <E1EDP02 SEGMENT="1">
+            <QUALF>001</QUALF>
+            <BELNR>151645</BELNR>
+            <ZEILE>000001</ZEILE>
+            <DATUM>20230424</DATUM>
+            <BSARK>EDI</BSARK>
+         </E1EDP02>
+         <E1EDP02 SEGMENT="1">
+            <QUALF>002</QUALF>
+            <BELNR>1000007874</BELNR>
+            <ZEILE>000100</ZEILE>
+            <DATUM>20230424</DATUM>
+         </E1EDP02>
+         <E1EDP02 SEGMENT="1">
+            <QUALF>016</QUALF>
+            <BELNR>5000000367</BELNR>
+            <ZEILE>000010</ZEILE>
+            <DATUM>20230501</DATUM>
+         </E1EDP02>
+         <E1EDP03 SEGMENT="1">
+            <IDDAT>029</IDDAT>
+            <DATUM>20230424</DATUM>
+         </E1EDP03>
+         <E1EDP03 SEGMENT="1">
+            <IDDAT>001</IDDAT>
+            <DATUM>20230501</DATUM>
+         </E1EDP03>
+         <E1EDP03 SEGMENT="1">
+            <IDDAT>011</IDDAT>
+            <DATUM>20230502</DATUM>
+         </E1EDP03>
+         <E1EDP03 SEGMENT="1">
+            <IDDAT>025</IDDAT>
+            <DATUM>20230502</DATUM>
+         </E1EDP03>
+         <E1EDP03 SEGMENT="1">
+            <IDDAT>027</IDDAT>
+            <DATUM>20230501</DATUM>
+         </E1EDP03>
+         <E1EDP03 SEGMENT="1">
+            <IDDAT>023</IDDAT>
+            <DATUM>20230501</DATUM>
+         </E1EDP03>
+         <E1EDP03 SEGMENT="1">
+            <IDDAT>022</IDDAT>
+            <DATUM>20230424</DATUM>
+         </E1EDP03>
+         <E1EDP19 SEGMENT="1">
+            <QUALF>010</QUALF>
+            <IDTNR>0000008617</IDTNR>
+         </E1EDP19>
+         <E1EDP19 SEGMENT="1">
+            <QUALF>001</QUALF>
+            <IDTNR>GZ9616</IDTNR>
+         </E1EDP19>
+         <E1EDP19 SEGMENT="1">
+            <QUALF>002</QUALF>
+            <IDTNR>000000100010614014</IDTNR>
+            <KTEXT>REEBOK COURT AD FTWWHT/VECNAV/FTWW 10</KTEXT>
+            <IDTNR_LONG>000000100010614014</IDTNR_LONG>
+         </E1EDP19>
+         <E1EDP19 SEGMENT="1">
+            <QUALF>003</QUALF>
+            <IDTNR>195747888407</IDTNR>
+         </E1EDP19>
+         <E1EDP19 SEGMENT="1">
+            <QUALF>006</QUALF>
+            <IDTNR>000000000100010614</IDTNR>
+            <IDTNR_LONG>000000000100010614</IDTNR_LONG>
+         </E1EDP19>
+         <E1EDP26 SEGMENT="1">
+            <QUALF>UNT</QUALF>
+            <BETRG>32.89</BETRG>
+         </E1EDP26>
+         <E1EDP26 SEGMENT="1">
+            <QUALF>003</QUALF>
+            <BETRG>65.78</BETRG>
+         </E1EDP26>
+         <E1EDP26 SEGMENT="1">
+            <QUALF>010</QUALF>
+            <BETRG>71.50</BETRG>
+         </E1EDP26>
+         <E1EDP26 SEGMENT="1">
+            <QUALF>011</QUALF>
+            <BETRG>65.78</BETRG>
+         </E1EDP26>
+         <E1EDP26 SEGMENT="1">
+            <QUALF>012</QUALF>
+            <BETRG>65.78</BETRG>
+         </E1EDP26>
+         <E1EDP26 SEGMENT="1">
+            <QUALF>001</QUALF>
+            <BETRG>0</BETRG>
+         </E1EDP26>
+         <E1EDP26 SEGMENT="1">
+            <QUALF>002</QUALF>
+            <BETRG>0</BETRG>
+         </E1EDP26>
+         <E1EDPA1 SEGMENT="1">
+            <PARVW>WE</PARVW>
+            <PARTN>2100015837</PARTN>
+            <NAME1>BOSCOVS DC #00015</NAME1>
+            <NAME2>STORE #00015</NAME2>
+            <NAME3>DC    #00015</NAME3>
+            <STRAS>5 BIRCHMONT DR</STRAS>
+            <ORT01>READING</ORT01>
+            <PSTLZ>19606</PSTLZ>
+            <LAND1>US</LAND1>
+            <SPRAS>E</SPRAS>
+            <HAUSN>000000</HAUSN>
+            <REGIO>PA</REGIO>
+            <KNREF>00015</KNREF>
+            <SPRAS_ISO>EN</SPRAS_ISO>
+         </E1EDPA1>
+         <E1EDP05 SEGMENT="1">
+            <ALCKZ>+</ALCKZ>
+            <KOTXT>Wholesale Price</KOTXT>
+            <BETRG>71.50</BETRG>
+            <KRATE>35.75</KRATE>
+            <UPRBS>1</UPRBS>
+            <MEAUN>EA</MEAUN>
+            <KOEIN>USD</KOEIN>
+            <KOBAS>2</KOBAS>
+         </E1EDP05>
+         <E1EDP05 SEGMENT="1">
+            <ALCKZ>+</ALCKZ>
+            <KOTXT>Net Value for Item</KOTXT>
+            <BETRG>65.78</BETRG>
+            <KRATE>32.89</KRATE>
+            <UPRBS>1</UPRBS>
+            <MEAUN>EA</MEAUN>
+            <KOEIN>USD</KOEIN>
+            <KOBAS>2</KOBAS>
+         </E1EDP05>
+         <E1EDP04 SEGMENT="1">
+            <MWSKZ>O1</MWSKZ>
+            <MSATZ>0</MSATZ>
+            <MWSBT>0</MWSBT>
+            <TXJCD>3900000000</TXJCD>
+            <TXDAT>20230501</TXDAT>
+         </E1EDP04>
+         <E1EDP04 SEGMENT="1">
+            <MWSKZ>O1</MWSKZ>
+            <MSATZ>0</MSATZ>
+            <MWSBT>0</MWSBT>
+            <TXJCD>3901100000</TXJCD>
+            <TXDAT>20230501</TXDAT>
+         </E1EDP04>
+         <E1EDP04 SEGMENT="1">
+            <MWSKZ>O1</MWSKZ>
+            <MSATZ>0</MSATZ>
+            <MWSBT>0</MWSBT>
+            <TXJCD>3901100000</TXJCD>
+            <TXDAT>20230501</TXDAT>
+         </E1EDP04>
+         <E1EDP04 SEGMENT="1">
+            <MWSKZ>O1</MWSKZ>
+            <MSATZ>0</MSATZ>
+            <MWSBT>0</MWSBT>
+            <TXJCD>3901100000</TXJCD>
+            <TXDAT>20230501</TXDAT>
+         </E1EDP04>
+         <E1EDP04 SEGMENT="1">
+            <MWSKZ>O1</MWSKZ>
+            <MSATZ>0</MSATZ>
+            <MWSBT>0</MWSBT>
+            <TXJCD>3901100000</TXJCD>
+            <TXDAT>20230501</TXDAT>
+         </E1EDP04>
+         <E1EDP04 SEGMENT="1">
+            <MWSKZ>O1</MWSKZ>
+            <MSATZ>0</MSATZ>
+            <MWSBT>0</MWSBT>
+            <TXJCD>3901100000</TXJCD>
+            <TXDAT>20230501</TXDAT>
+         </E1EDP04>
+         <E1EDPT1 SEGMENT="1">
+            <TDID>ZEDI</TDID>
+            <TSSPRAS>E</TSSPRAS>
+            <TSSPRAS_ISO>EN</TSSPRAS_ISO>
+            <E1EDPT2 SEGMENT="1">
+               <TDLINE>000001</TDLINE>
+               <TDFORMAT>/</TDFORMAT>
+            </E1EDPT2>
+         </E1EDPT1>
+         <E1EDP22 SEGMENT="1">
+            <FSH_SEASON_YEAR>2023</FSH_SEASON_YEAR>
+            <FSH_SEASON>SS23</FSH_SEASON>
+            <RFM_SEASON_LONG>SS23</RFM_SEASON_LONG>
+         </E1EDP22>
+      </E1EDP01>
+      <E1EDP01 SEGMENT="1">
+         <POSEX>000200</POSEX>
+         <MENGE>1.000</MENGE>
+         <MENEE>PR</MENEE>
+         <PSTYV>ZTAN</PSTYV>
+         <WERKS>3500</WERKS>
+         <SGT_RCAT>WHSL</SGT_RCAT>
+         <SGT_SCAT>WHSL</SGT_SCAT>
+         <REQ_SEG_LONG>WHSL</REQ_SEG_LONG>
+         <STK_SEG_LONG>WHSL</STK_SEG_LONG>
+         <E1EDP02 SEGMENT="1">
+            <QUALF>001</QUALF>
+            <BELNR>151645</BELNR>
+            <ZEILE>000002</ZEILE>
+            <DATUM>20230424</DATUM>
+            <BSARK>EDI</BSARK>
+         </E1EDP02>
+         <E1EDP02 SEGMENT="1">
+            <QUALF>002</QUALF>
+            <BELNR>1000007874</BELNR>
+            <ZEILE>000200</ZEILE>
+            <DATUM>20230424</DATUM>
+         </E1EDP02>
+         <E1EDP02 SEGMENT="1">
+            <QUALF>016</QUALF>
+            <BELNR>5000000367</BELNR>
+            <ZEILE>000020</ZEILE>
+            <DATUM>20230501</DATUM>
+         </E1EDP02>
+         <E1EDP03 SEGMENT="1">
+            <IDDAT>029</IDDAT>
+            <DATUM>20230424</DATUM>
+         </E1EDP03>
+         <E1EDP03 SEGMENT="1">
+            <IDDAT>001</IDDAT>
+            <DATUM>20230501</DATUM>
+         </E1EDP03>
+         <E1EDP03 SEGMENT="1">
+            <IDDAT>011</IDDAT>
+            <DATUM>20230502</DATUM>
+         </E1EDP03>
+         <E1EDP03 SEGMENT="1">
+            <IDDAT>025</IDDAT>
+            <DATUM>20230502</DATUM>
+         </E1EDP03>
+         <E1EDP03 SEGMENT="1">
+            <IDDAT>027</IDDAT>
+            <DATUM>20230501</DATUM>
+         </E1EDP03>
+         <E1EDP03 SEGMENT="1">
+            <IDDAT>023</IDDAT>
+            <DATUM>20230501</DATUM>
+         </E1EDP03>
+         <E1EDP03 SEGMENT="1">
+            <IDDAT>022</IDDAT>
+            <DATUM>20230424</DATUM>
+         </E1EDP03>
+         <E1EDP19 SEGMENT="1">
+            <QUALF>010</QUALF>
+            <IDTNR>0000008626</IDTNR>
+         </E1EDP19>
+         <E1EDP19 SEGMENT="1">
+            <QUALF>001</QUALF>
+            <IDTNR>GZ9616</IDTNR>
+         </E1EDP19>
+         <E1EDP19 SEGMENT="1">
+            <QUALF>002</QUALF>
+            <IDTNR>000000100010614015</IDTNR>
+            <KTEXT>REEBOK COURT AD FTWWHT/VECNAV/FTWW 10.5</KTEXT>
+            <IDTNR_LONG>000000100010614015</IDTNR_LONG>
+         </E1EDP19>
+         <E1EDP19 SEGMENT="1">
+            <QUALF>003</QUALF>
+            <IDTNR>195747888421</IDTNR>
+         </E1EDP19>
+         <E1EDP19 SEGMENT="1">
+            <QUALF>006</QUALF>
+            <IDTNR>000000000100010614</IDTNR>
+            <IDTNR_LONG>000000000100010614</IDTNR_LONG>
+         </E1EDP19>
+         <E1EDP26 SEGMENT="1">
+            <QUALF>UNT</QUALF>
+            <BETRG>32.89</BETRG>
+         </E1EDP26>
+         <E1EDP26 SEGMENT="1">
+            <QUALF>003</QUALF>
+            <BETRG>32.89</BETRG>
+         </E1EDP26>
+         <E1EDP26 SEGMENT="1">
+            <QUALF>010</QUALF>
+            <BETRG>35.75</BETRG>
+         </E1EDP26>
+         <E1EDP26 SEGMENT="1">
+            <QUALF>011</QUALF>
+            <BETRG>32.89</BETRG>
+         </E1EDP26>
+         <E1EDP26 SEGMENT="1">
+            <QUALF>012</QUALF>
+            <BETRG>32.89</BETRG>
+         </E1EDP26>
+         <E1EDP26 SEGMENT="1">
+            <QUALF>001</QUALF>
+            <BETRG>0</BETRG>
+         </E1EDP26>
+         <E1EDP26 SEGMENT="1">
+            <QUALF>002</QUALF>
+            <BETRG>0</BETRG>
+         </E1EDP26>
+         <E1EDPA1 SEGMENT="1">
+            <PARVW>WE</PARVW>
+            <PARTN>2100015837</PARTN>
+            <NAME1>BOSCOVS DC #00015</NAME1>
+            <NAME2>STORE #00015</NAME2>
+            <NAME3>DC    #00015</NAME3>
+            <STRAS>5 BIRCHMONT DR</STRAS>
+            <ORT01>READING</ORT01>
+            <PSTLZ>19606</PSTLZ>
+            <LAND1>US</LAND1>
+            <SPRAS>E</SPRAS>
+            <HAUSN>000000</HAUSN>
+            <REGIO>PA</REGIO>
+            <KNREF>00015</KNREF>
+            <SPRAS_ISO>EN</SPRAS_ISO>
+         </E1EDPA1>
+         <E1EDP05 SEGMENT="1">
+            <ALCKZ>+</ALCKZ>
+            <KOTXT>Wholesale Price</KOTXT>
+            <BETRG>35.75</BETRG>
+            <KRATE>35.75</KRATE>
+            <UPRBS>1</UPRBS>
+            <MEAUN>EA</MEAUN>
+            <KOEIN>USD</KOEIN>
+            <KOBAS>1</KOBAS>
+         </E1EDP05>
+         <E1EDP05 SEGMENT="1">
+            <ALCKZ>+</ALCKZ>
+            <KOTXT>Net Value for Item</KOTXT>
+            <BETRG>32.89</BETRG>
+            <KRATE>32.89</KRATE>
+            <UPRBS>1</UPRBS>
+            <MEAUN>EA</MEAUN>
+            <KOEIN>USD</KOEIN>
+            <KOBAS>1</KOBAS>
+         </E1EDP05>
+         <E1EDP04 SEGMENT="1">
+            <MWSKZ>O1</MWSKZ>
+            <MSATZ>0</MSATZ>
+            <MWSBT>0</MWSBT>
+            <TXJCD>3900000000</TXJCD>
+            <TXDAT>20230501</TXDAT>
+         </E1EDP04>
+         <E1EDP04 SEGMENT="1">
+            <MWSKZ>O1</MWSKZ>
+            <MSATZ>0</MSATZ>
+            <MWSBT>0</MWSBT>
+            <TXJCD>3901100000</TXJCD>
+            <TXDAT>20230501</TXDAT>
+         </E1EDP04>
+         <E1EDP04 SEGMENT="1">
+            <MWSKZ>O1</MWSKZ>
+            <MSATZ>0</MSATZ>
+            <MWSBT>0</MWSBT>
+            <TXJCD>3901100000</TXJCD>
+            <TXDAT>20230501</TXDAT>
+         </E1EDP04>
+         <E1EDP04 SEGMENT="1">
+            <MWSKZ>O1</MWSKZ>
+            <MSATZ>0</MSATZ>
+            <MWSBT>0</MWSBT>
+            <TXJCD>3901100000</TXJCD>
+            <TXDAT>20230501</TXDAT>
+         </E1EDP04>
+         <E1EDP04 SEGMENT="1">
+            <MWSKZ>O1</MWSKZ>
+            <MSATZ>0</MSATZ>
+            <MWSBT>0</MWSBT>
+            <TXJCD>3901100000</TXJCD>
+            <TXDAT>20230501</TXDAT>
+         </E1EDP04>
+         <E1EDP04 SEGMENT="1">
+            <MWSKZ>O1</MWSKZ>
+            <MSATZ>0</MSATZ>
+            <MWSBT>0</MWSBT>
+            <TXJCD>3901100000</TXJCD>
+            <TXDAT>20230501</TXDAT>
+         </E1EDP04>
+         <E1EDPT1 SEGMENT="1">
+            <TDID>ZEDI</TDID>
+            <TSSPRAS>E</TSSPRAS>
+            <TSSPRAS_ISO>EN</TSSPRAS_ISO>
+            <E1EDPT2 SEGMENT="1">
+               <TDLINE>000002</TDLINE>
+               <TDFORMAT>/</TDFORMAT>
+            </E1EDPT2>
+         </E1EDPT1>
+         <E1EDP22 SEGMENT="1">
+            <FSH_SEASON_YEAR>2023</FSH_SEASON_YEAR>
+            <FSH_SEASON>SS23</FSH_SEASON>
+            <RFM_SEASON_LONG>SS23</RFM_SEASON_LONG>
+         </E1EDP22>
+      </E1EDP01>
+      <E1EDP01 SEGMENT="1">
+         <POSEX>000300</POSEX>
+         <MENGE>1.000</MENGE>
+         <MENEE>PR</MENEE>
+         <PSTYV>ZTAN</PSTYV>
+         <WERKS>3500</WERKS>
+         <SGT_RCAT>WHSL</SGT_RCAT>
+         <SGT_SCAT>WHSL</SGT_SCAT>
+         <REQ_SEG_LONG>WHSL</REQ_SEG_LONG>
+         <STK_SEG_LONG>WHSL</STK_SEG_LONG>
+         <E1EDP02 SEGMENT="1">
+            <QUALF>001</QUALF>
+            <BELNR>151645</BELNR>
+            <ZEILE>000003</ZEILE>
+            <DATUM>20230424</DATUM>
+            <BSARK>EDI</BSARK>
+         </E1EDP02>
+         <E1EDP02 SEGMENT="1">
+            <QUALF>002</QUALF>
+            <BELNR>1000007874</BELNR>
+            <ZEILE>000300</ZEILE>
+            <DATUM>20230424</DATUM>
+         </E1EDP02>
+         <E1EDP02 SEGMENT="1">
+            <QUALF>016</QUALF>
+            <BELNR>5000000367</BELNR>
+            <ZEILE>000030</ZEILE>
+            <DATUM>20230501</DATUM>
+         </E1EDP02>
+         <E1EDP03 SEGMENT="1">
+            <IDDAT>029</IDDAT>
+            <DATUM>20230424</DATUM>
+         </E1EDP03>
+         <E1EDP03 SEGMENT="1">
+            <IDDAT>001</IDDAT>
+            <DATUM>20230501</DATUM>
+         </E1EDP03>
+         <E1EDP03 SEGMENT="1">
+            <IDDAT>011</IDDAT>
+            <DATUM>20230502</DATUM>
+         </E1EDP03>
+         <E1EDP03 SEGMENT="1">
+            <IDDAT>025</IDDAT>
+            <DATUM>20230502</DATUM>
+         </E1EDP03>
+         <E1EDP03 SEGMENT="1">
+            <IDDAT>027</IDDAT>
+            <DATUM>20230501</DATUM>
+         </E1EDP03>
+         <E1EDP03 SEGMENT="1">
+            <IDDAT>023</IDDAT>
+            <DATUM>20230501</DATUM>
+         </E1EDP03>
+         <E1EDP03 SEGMENT="1">
+            <IDDAT>022</IDDAT>
+            <DATUM>20230424</DATUM>
+         </E1EDP03>
+         <E1EDP19 SEGMENT="1">
+            <QUALF>010</QUALF>
+            <IDTNR>0000008618</IDTNR>
+         </E1EDP19>
+         <E1EDP19 SEGMENT="1">
+            <QUALF>001</QUALF>
+            <IDTNR>GZ9616</IDTNR>
+         </E1EDP19>
+         <E1EDP19 SEGMENT="1">
+            <QUALF>002</QUALF>
+            <IDTNR>000000100010614016</IDTNR>
+            <KTEXT>REEBOK COURT AD FTWWHT/VECNAV/FTWW 11</KTEXT>
+            <IDTNR_LONG>000000100010614016</IDTNR_LONG>
+         </E1EDP19>
+         <E1EDP19 SEGMENT="1">
+            <QUALF>003</QUALF>
+            <IDTNR>195747888452</IDTNR>
+         </E1EDP19>
+         <E1EDP19 SEGMENT="1">
+            <QUALF>006</QUALF>
+            <IDTNR>000000000100010614</IDTNR>
+            <IDTNR_LONG>000000000100010614</IDTNR_LONG>
+         </E1EDP19>
+         <E1EDP26 SEGMENT="1">
+            <QUALF>UNT</QUALF>
+            <BETRG>32.89</BETRG>
+         </E1EDP26>
+         <E1EDP26 SEGMENT="1">
+            <QUALF>003</QUALF>
+            <BETRG>32.89</BETRG>
+         </E1EDP26>
+         <E1EDP26 SEGMENT="1">
+            <QUALF>010</QUALF>
+            <BETRG>35.75</BETRG>
+         </E1EDP26>
+         <E1EDP26 SEGMENT="1">
+            <QUALF>011</QUALF>
+            <BETRG>32.89</BETRG>
+         </E1EDP26>
+         <E1EDP26 SEGMENT="1">
+            <QUALF>012</QUALF>
+            <BETRG>32.89</BETRG>
+         </E1EDP26>
+         <E1EDP26 SEGMENT="1">
+            <QUALF>001</QUALF>
+            <BETRG>0</BETRG>
+         </E1EDP26>
+         <E1EDP26 SEGMENT="1">
+            <QUALF>002</QUALF>
+            <BETRG>0</BETRG>
+         </E1EDP26>
+         <E1EDPA1 SEGMENT="1">
+            <PARVW>WE</PARVW>
+            <PARTN>2100015837</PARTN>
+            <NAME1>BOSCOVS DC #00015</NAME1>
+            <NAME2>STORE #00015</NAME2>
+            <NAME3>DC    #00015</NAME3>
+            <STRAS>5 BIRCHMONT DR</STRAS>
+            <ORT01>READING</ORT01>
+            <PSTLZ>19606</PSTLZ>
+            <LAND1>US</LAND1>
+            <SPRAS>E</SPRAS>
+            <HAUSN>000000</HAUSN>
+            <REGIO>PA</REGIO>
+            <KNREF>00015</KNREF>
+            <SPRAS_ISO>EN</SPRAS_ISO>
+         </E1EDPA1>
+         <E1EDP05 SEGMENT="1">
+            <ALCKZ>+</ALCKZ>
+            <KOTXT>Wholesale Price</KOTXT>
+            <BETRG>35.75</BETRG>
+            <KRATE>35.75</KRATE>
+            <UPRBS>1</UPRBS>
+            <MEAUN>EA</MEAUN>
+            <KOEIN>USD</KOEIN>
+            <KOBAS>1</KOBAS>
+         </E1EDP05>
+         <E1EDP05 SEGMENT="1">
+            <ALCKZ>+</ALCKZ>
+            <KOTXT>Net Value for Item</KOTXT>
+            <BETRG>32.89</BETRG>
+            <KRATE>32.89</KRATE>
+            <UPRBS>1</UPRBS>
+            <MEAUN>EA</MEAUN>
+            <KOEIN>USD</KOEIN>
+            <KOBAS>1</KOBAS>
+         </E1EDP05>
+         <E1EDP04 SEGMENT="1">
+            <MWSKZ>O1</MWSKZ>
+            <MSATZ>0</MSATZ>
+            <MWSBT>0</MWSBT>
+            <TXJCD>3900000000</TXJCD>
+            <TXDAT>20230501</TXDAT>
+         </E1EDP04>
+         <E1EDP04 SEGMENT="1">
+            <MWSKZ>O1</MWSKZ>
+            <MSATZ>0</MSATZ>
+            <MWSBT>0</MWSBT>
+            <TXJCD>3901100000</TXJCD>
+            <TXDAT>20230501</TXDAT>
+         </E1EDP04>
+         <E1EDP04 SEGMENT="1">
+            <MWSKZ>O1</MWSKZ>
+            <MSATZ>0</MSATZ>
+            <MWSBT>0</MWSBT>
+            <TXJCD>3901100000</TXJCD>
+            <TXDAT>20230501</TXDAT>
+         </E1EDP04>
+         <E1EDP04 SEGMENT="1">
+            <MWSKZ>O1</MWSKZ>
+            <MSATZ>0</MSATZ>
+            <MWSBT>0</MWSBT>
+            <TXJCD>3901100000</TXJCD>
+            <TXDAT>20230501</TXDAT>
+         </E1EDP04>
+         <E1EDP04 SEGMENT="1">
+            <MWSKZ>O1</MWSKZ>
+            <MSATZ>0</MSATZ>
+            <MWSBT>0</MWSBT>
+            <TXJCD>3901100000</TXJCD>
+            <TXDAT>20230501</TXDAT>
+         </E1EDP04>
+         <E1EDP04 SEGMENT="1">
+            <MWSKZ>O1</MWSKZ>
+            <MSATZ>0</MSATZ>
+            <MWSBT>0</MWSBT>
+            <TXJCD>3901100000</TXJCD>
+            <TXDAT>20230501</TXDAT>
+         </E1EDP04>
+         <E1EDPT1 SEGMENT="1">
+            <TDID>ZEDI</TDID>
+            <TSSPRAS>E</TSSPRAS>
+            <TSSPRAS_ISO>EN</TSSPRAS_ISO>
+            <E1EDPT2 SEGMENT="1">
+               <TDLINE>000003</TDLINE>
+               <TDFORMAT>/</TDFORMAT>
+            </E1EDPT2>
+         </E1EDPT1>
+         <E1EDP22 SEGMENT="1">
+            <FSH_SEASON_YEAR>2023</FSH_SEASON_YEAR>
+            <FSH_SEASON>SS23</FSH_SEASON>
+            <RFM_SEASON_LONG>SS23</RFM_SEASON_LONG>
+         </E1EDP22>
+      </E1EDP01>
+      <E1EDP01 SEGMENT="1">
+         <POSEX>000400</POSEX>
+         <MENGE>2.000</MENGE>
+         <MENEE>PR</MENEE>
+         <PSTYV>ZTAN</PSTYV>
+         <WERKS>3500</WERKS>
+         <SGT_RCAT>WHSL</SGT_RCAT>
+         <SGT_SCAT>WHSL</SGT_SCAT>
+         <REQ_SEG_LONG>WHSL</REQ_SEG_LONG>
+         <STK_SEG_LONG>WHSL</STK_SEG_LONG>
+         <E1EDP02 SEGMENT="1">
+            <QUALF>001</QUALF>
+            <BELNR>151645</BELNR>
+            <ZEILE>000004</ZEILE>
+            <DATUM>20230424</DATUM>
+            <BSARK>EDI</BSARK>
+         </E1EDP02>
+         <E1EDP02 SEGMENT="1">
+            <QUALF>002</QUALF>
+            <BELNR>1000007874</BELNR>
+            <ZEILE>000400</ZEILE>
+            <DATUM>20230424</DATUM>
+         </E1EDP02>
+         <E1EDP02 SEGMENT="1">
+            <QUALF>016</QUALF>
+            <BELNR>5000000367</BELNR>
+            <ZEILE>000040</ZEILE>
+            <DATUM>20230501</DATUM>
+         </E1EDP02>
+         <E1EDP03 SEGMENT="1">
+            <IDDAT>029</IDDAT>
+            <DATUM>20230424</DATUM>
+         </E1EDP03>
+         <E1EDP03 SEGMENT="1">
+            <IDDAT>001</IDDAT>
+            <DATUM>20230501</DATUM>
+         </E1EDP03>
+         <E1EDP03 SEGMENT="1">
+            <IDDAT>011</IDDAT>
+            <DATUM>20230502</DATUM>
+         </E1EDP03>
+         <E1EDP03 SEGMENT="1">
+            <IDDAT>025</IDDAT>
+            <DATUM>20230502</DATUM>
+         </E1EDP03>
+         <E1EDP03 SEGMENT="1">
+            <IDDAT>027</IDDAT>
+            <DATUM>20230501</DATUM>
+         </E1EDP03>
+         <E1EDP03 SEGMENT="1">
+            <IDDAT>023</IDDAT>
+            <DATUM>20230501</DATUM>
+         </E1EDP03>
+         <E1EDP03 SEGMENT="1">
+            <IDDAT>022</IDDAT>
+            <DATUM>20230424</DATUM>
+         </E1EDP03>
+         <E1EDP19 SEGMENT="1">
+            <QUALF>010</QUALF>
+            <IDTNR>0000008619</IDTNR>
+         </E1EDP19>
+         <E1EDP19 SEGMENT="1">
+            <QUALF>001</QUALF>
+            <IDTNR>GZ9616</IDTNR>
+         </E1EDP19>
+         <E1EDP19 SEGMENT="1">
+            <QUALF>002</QUALF>
+            <IDTNR>000000100010614018</IDTNR>
+            <KTEXT>REEBOK COURT AD FTWWHT/VECNAV/FTWW 12</KTEXT>
+            <IDTNR_LONG>000000100010614018</IDTNR_LONG>
+         </E1EDP19>
+         <E1EDP19 SEGMENT="1">
+            <QUALF>003</QUALF>
+            <IDTNR>195747888339</IDTNR>
+         </E1EDP19>
+         <E1EDP19 SEGMENT="1">
+            <QUALF>006</QUALF>
+            <IDTNR>000000000100010614</IDTNR>
+            <IDTNR_LONG>000000000100010614</IDTNR_LONG>
+         </E1EDP19>
+         <E1EDP26 SEGMENT="1">
+            <QUALF>UNT</QUALF>
+            <BETRG>32.89</BETRG>
+         </E1EDP26>
+         <E1EDP26 SEGMENT="1">
+            <QUALF>003</QUALF>
+            <BETRG>65.78</BETRG>
+         </E1EDP26>
+         <E1EDP26 SEGMENT="1">
+            <QUALF>010</QUALF>
+            <BETRG>71.50</BETRG>
+         </E1EDP26>
+         <E1EDP26 SEGMENT="1">
+            <QUALF>011</QUALF>
+            <BETRG>65.78</BETRG>
+         </E1EDP26>
+         <E1EDP26 SEGMENT="1">
+            <QUALF>012</QUALF>
+            <BETRG>65.78</BETRG>
+         </E1EDP26>
+         <E1EDP26 SEGMENT="1">
+            <QUALF>001</QUALF>
+            <BETRG>0</BETRG>
+         </E1EDP26>
+         <E1EDP26 SEGMENT="1">
+            <QUALF>002</QUALF>
+            <BETRG>0</BETRG>
+         </E1EDP26>
+         <E1EDPA1 SEGMENT="1">
+            <PARVW>WE</PARVW>
+            <PARTN>2100015837</PARTN>
+            <NAME1>BOSCOVS DC #00015</NAME1>
+            <NAME2>STORE #00015</NAME2>
+            <NAME3>DC    #00015</NAME3>
+            <STRAS>5 BIRCHMONT DR</STRAS>
+            <ORT01>READING</ORT01>
+            <PSTLZ>19606</PSTLZ>
+            <LAND1>US</LAND1>
+            <SPRAS>E</SPRAS>
+            <HAUSN>000000</HAUSN>
+            <REGIO>PA</REGIO>
+            <KNREF>00015</KNREF>
+            <SPRAS_ISO>EN</SPRAS_ISO>
+         </E1EDPA1>
+         <E1EDP05 SEGMENT="1">
+            <ALCKZ>+</ALCKZ>
+            <KOTXT>Wholesale Price</KOTXT>
+            <BETRG>71.50</BETRG>
+            <KRATE>35.75</KRATE>
+            <UPRBS>1</UPRBS>
+            <MEAUN>EA</MEAUN>
+            <KOEIN>USD</KOEIN>
+            <KOBAS>2</KOBAS>
+         </E1EDP05>
+         <E1EDP05 SEGMENT="1">
+            <ALCKZ>+</ALCKZ>
+            <KOTXT>Net Value for Item</KOTXT>
+            <BETRG>65.78</BETRG>
+            <KRATE>32.89</KRATE>
+            <UPRBS>1</UPRBS>
+            <MEAUN>EA</MEAUN>
+            <KOEIN>USD</KOEIN>
+            <KOBAS>2</KOBAS>
+         </E1EDP05>
+         <E1EDP04 SEGMENT="1">
+            <MWSKZ>O1</MWSKZ>
+            <MSATZ>0</MSATZ>
+            <MWSBT>0</MWSBT>
+            <TXJCD>3900000000</TXJCD>
+            <TXDAT>20230501</TXDAT>
+         </E1EDP04>
+         <E1EDP04 SEGMENT="1">
+            <MWSKZ>O1</MWSKZ>
+            <MSATZ>0</MSATZ>
+            <MWSBT>0</MWSBT>
+            <TXJCD>3901100000</TXJCD>
+            <TXDAT>20230501</TXDAT>
+         </E1EDP04>
+         <E1EDP04 SEGMENT="1">
+            <MWSKZ>O1</MWSKZ>
+            <MSATZ>0</MSATZ>
+            <MWSBT>0</MWSBT>
+            <TXJCD>3901100000</TXJCD>
+            <TXDAT>20230501</TXDAT>
+         </E1EDP04>
+         <E1EDP04 SEGMENT="1">
+            <MWSKZ>O1</MWSKZ>
+            <MSATZ>0</MSATZ>
+            <MWSBT>0</MWSBT>
+            <TXJCD>3901100000</TXJCD>
+            <TXDAT>20230501</TXDAT>
+         </E1EDP04>
+         <E1EDP04 SEGMENT="1">
+            <MWSKZ>O1</MWSKZ>
+            <MSATZ>0</MSATZ>
+            <MWSBT>0</MWSBT>
+            <TXJCD>3901100000</TXJCD>
+            <TXDAT>20230501</TXDAT>
+         </E1EDP04>
+         <E1EDP04 SEGMENT="1">
+            <MWSKZ>O1</MWSKZ>
+            <MSATZ>0</MSATZ>
+            <MWSBT>0</MWSBT>
+            <TXJCD>3901100000</TXJCD>
+            <TXDAT>20230501</TXDAT>
+         </E1EDP04>
+         <E1EDPT1 SEGMENT="1">
+            <TDID>ZEDI</TDID>
+            <TSSPRAS>E</TSSPRAS>
+            <TSSPRAS_ISO>EN</TSSPRAS_ISO>
+            <E1EDPT2 SEGMENT="1">
+               <TDLINE>000004</TDLINE>
+               <TDFORMAT>/</TDFORMAT>
+            </E1EDPT2>
+         </E1EDPT1>
+         <E1EDP22 SEGMENT="1">
+            <FSH_SEASON_YEAR>2023</FSH_SEASON_YEAR>
+            <FSH_SEASON>SS23</FSH_SEASON>
+            <RFM_SEASON_LONG>SS23</RFM_SEASON_LONG>
+         </E1EDP22>
+      </E1EDP01>
+      <E1EDP01 SEGMENT="1">
+         <POSEX>000500</POSEX>
+         <MENGE>2.000</MENGE>
+         <MENEE>PR</MENEE>
+         <PSTYV>ZTAN</PSTYV>
+         <WERKS>3500</WERKS>
+         <SGT_RCAT>WHSL</SGT_RCAT>
+         <SGT_SCAT>WHSL</SGT_SCAT>
+         <REQ_SEG_LONG>WHSL</REQ_SEG_LONG>
+         <STK_SEG_LONG>WHSL</STK_SEG_LONG>
+         <E1EDP02 SEGMENT="1">
+            <QUALF>001</QUALF>
+            <BELNR>151645</BELNR>
+            <ZEILE>000005</ZEILE>
+            <DATUM>20230424</DATUM>
+            <BSARK>EDI</BSARK>
+         </E1EDP02>
+         <E1EDP02 SEGMENT="1">
+            <QUALF>002</QUALF>
+            <BELNR>1000007874</BELNR>
+            <ZEILE>000500</ZEILE>
+            <DATUM>20230424</DATUM>
+         </E1EDP02>
+         <E1EDP02 SEGMENT="1">
+            <QUALF>016</QUALF>
+            <BELNR>5000000367</BELNR>
+            <ZEILE>000050</ZEILE>
+            <DATUM>20230501</DATUM>
+         </E1EDP02>
+         <E1EDP03 SEGMENT="1">
+            <IDDAT>029</IDDAT>
+            <DATUM>20230424</DATUM>
+         </E1EDP03>
+         <E1EDP03 SEGMENT="1">
+            <IDDAT>001</IDDAT>
+            <DATUM>20230501</DATUM>
+         </E1EDP03>
+         <E1EDP03 SEGMENT="1">
+            <IDDAT>011</IDDAT>
+            <DATUM>20230502</DATUM>
+         </E1EDP03>
+         <E1EDP03 SEGMENT="1">
+            <IDDAT>025</IDDAT>
+            <DATUM>20230502</DATUM>
+         </E1EDP03>
+         <E1EDP03 SEGMENT="1">
+            <IDDAT>027</IDDAT>
+            <DATUM>20230501</DATUM>
+         </E1EDP03>
+         <E1EDP03 SEGMENT="1">
+            <IDDAT>023</IDDAT>
+            <DATUM>20230501</DATUM>
+         </E1EDP03>
+         <E1EDP03 SEGMENT="1">
+            <IDDAT>022</IDDAT>
+            <DATUM>20230424</DATUM>
+         </E1EDP03>
+         <E1EDP19 SEGMENT="1">
+            <QUALF>010</QUALF>
+            <IDTNR>0000008625</IDTNR>
+         </E1EDP19>
+         <E1EDP19 SEGMENT="1">
+            <QUALF>001</QUALF>
+            <IDTNR>GZ9616</IDTNR>
+         </E1EDP19>
+         <E1EDP19 SEGMENT="1">
+            <QUALF>002</QUALF>
+            <IDTNR>000000100010614013</IDTNR>
+            <KTEXT>REEBOK COURT AD FTWWHT/VECNAV/FTWW 9.5</KTEXT>
+            <IDTNR_LONG>000000100010614013</IDTNR_LONG>
+         </E1EDP19>
+         <E1EDP19 SEGMENT="1">
+            <QUALF>003</QUALF>
+            <IDTNR>195747888322</IDTNR>
+         </E1EDP19>
+         <E1EDP19 SEGMENT="1">
+            <QUALF>006</QUALF>
+            <IDTNR>000000000100010614</IDTNR>
+            <IDTNR_LONG>000000000100010614</IDTNR_LONG>
+         </E1EDP19>
+         <E1EDP26 SEGMENT="1">
+            <QUALF>UNT</QUALF>
+            <BETRG>32.89</BETRG>
+         </E1EDP26>
+         <E1EDP26 SEGMENT="1">
+            <QUALF>003</QUALF>
+            <BETRG>65.78</BETRG>
+         </E1EDP26>
+         <E1EDP26 SEGMENT="1">
+            <QUALF>010</QUALF>
+            <BETRG>71.50</BETRG>
+         </E1EDP26>
+         <E1EDP26 SEGMENT="1">
+            <QUALF>011</QUALF>
+            <BETRG>65.78</BETRG>
+         </E1EDP26>
+         <E1EDP26 SEGMENT="1">
+            <QUALF>012</QUALF>
+            <BETRG>65.78</BETRG>
+         </E1EDP26>
+         <E1EDP26 SEGMENT="1">
+            <QUALF>001</QUALF>
+            <BETRG>0</BETRG>
+         </E1EDP26>
+         <E1EDP26 SEGMENT="1">
+            <QUALF>002</QUALF>
+            <BETRG>0</BETRG>
+         </E1EDP26>
+         <E1EDPA1 SEGMENT="1">
+            <PARVW>WE</PARVW>
+            <PARTN>2100015837</PARTN>
+            <NAME1>BOSCOVS DC #00015</NAME1>
+            <NAME2>STORE #00015</NAME2>
+            <NAME3>DC    #00015</NAME3>
+            <STRAS>5 BIRCHMONT DR</STRAS>
+            <ORT01>READING</ORT01>
+            <PSTLZ>19606</PSTLZ>
+            <LAND1>US</LAND1>
+            <SPRAS>E</SPRAS>
+            <HAUSN>000000</HAUSN>
+            <REGIO>PA</REGIO>
+            <KNREF>00015</KNREF>
+            <SPRAS_ISO>EN</SPRAS_ISO>
+         </E1EDPA1>
+         <E1EDP05 SEGMENT="1">
+            <ALCKZ>+</ALCKZ>
+            <KOTXT>Wholesale Price</KOTXT>
+            <BETRG>71.50</BETRG>
+            <KRATE>35.75</KRATE>
+            <UPRBS>1</UPRBS>
+            <MEAUN>EA</MEAUN>
+            <KOEIN>USD</KOEIN>
+            <KOBAS>2</KOBAS>
+         </E1EDP05>
+         <E1EDP05 SEGMENT="1">
+            <ALCKZ>+</ALCKZ>
+            <KOTXT>Net Value for Item</KOTXT>
+            <BETRG>65.78</BETRG>
+            <KRATE>32.89</KRATE>
+            <UPRBS>1</UPRBS>
+            <MEAUN>EA</MEAUN>
+            <KOEIN>USD</KOEIN>
+            <KOBAS>2</KOBAS>
+         </E1EDP05>
+         <E1EDP04 SEGMENT="1">
+            <MWSKZ>O1</MWSKZ>
+            <MSATZ>0</MSATZ>
+            <MWSBT>0</MWSBT>
+            <TXJCD>3900000000</TXJCD>
+            <TXDAT>20230501</TXDAT>
+         </E1EDP04>
+         <E1EDP04 SEGMENT="1">
+            <MWSKZ>O1</MWSKZ>
+            <MSATZ>0</MSATZ>
+            <MWSBT>0</MWSBT>
+            <TXJCD>3901100000</TXJCD>
+            <TXDAT>20230501</TXDAT>
+         </E1EDP04>
+         <E1EDP04 SEGMENT="1">
+            <MWSKZ>O1</MWSKZ>
+            <MSATZ>0</MSATZ>
+            <MWSBT>0</MWSBT>
+            <TXJCD>3901100000</TXJCD>
+            <TXDAT>20230501</TXDAT>
+         </E1EDP04>
+         <E1EDP04 SEGMENT="1">
+            <MWSKZ>O1</MWSKZ>
+            <MSATZ>0</MSATZ>
+            <MWSBT>0</MWSBT>
+            <TXJCD>3901100000</TXJCD>
+            <TXDAT>20230501</TXDAT>
+         </E1EDP04>
+         <E1EDP04 SEGMENT="1">
+            <MWSKZ>O1</MWSKZ>
+            <MSATZ>0</MSATZ>
+            <MWSBT>0</MWSBT>
+            <TXJCD>3901100000</TXJCD>
+            <TXDAT>20230501</TXDAT>
+         </E1EDP04>
+         <E1EDP04 SEGMENT="1">
+            <MWSKZ>O1</MWSKZ>
+            <MSATZ>0</MSATZ>
+            <MWSBT>0</MWSBT>
+            <TXJCD>3901100000</TXJCD>
+            <TXDAT>20230501</TXDAT>
+         </E1EDP04>
+         <E1EDPT1 SEGMENT="1">
+            <TDID>ZEDI</TDID>
+            <TSSPRAS>E</TSSPRAS>
+            <TSSPRAS_ISO>EN</TSSPRAS_ISO>
+            <E1EDPT2 SEGMENT="1">
+               <TDLINE>000009</TDLINE>
+               <TDFORMAT>/</TDFORMAT>
+            </E1EDPT2>
+         </E1EDPT1>
+         <E1EDP22 SEGMENT="1">
+            <FSH_SEASON_YEAR>2023</FSH_SEASON_YEAR>
+            <FSH_SEASON>SS23</FSH_SEASON>
+            <RFM_SEASON_LONG>SS23</RFM_SEASON_LONG>
+         </E1EDP22>
+      </E1EDP01>
+      <E1EDS01 SEGMENT="1">
+         <SUMID>CRT</SUMID>
+         <SUMME>00002</SUMME>
+      </E1EDS01>
+      <E1EDS01 SEGMENT="1">
+         <SUMID>001</SUMID>
+         <SUMME>5</SUMME>
+      </E1EDS01>
+      <E1EDS01 SEGMENT="1">
+         <SUMID>012</SUMID>
+         <SUMME>0</SUMME>
+         <WAERQ>USD</WAERQ>
+      </E1EDS01>
+      <E1EDS01 SEGMENT="1">
+         <SUMID>005</SUMID>
+         <SUMME>0</SUMME>
+         <WAERQ>USD</WAERQ>
+      </E1EDS01>
+      <E1EDS01 SEGMENT="1">
+         <SUMID>011</SUMID>
+         <SUMME>263.12</SUMME>
+         <WAERQ>USD</WAERQ>
+      </E1EDS01>
+      <E1EDS01 SEGMENT="1">
+         <SUMID>010</SUMID>
+         <SUMME>263.12</SUMME>
+         <WAERQ>USD</WAERQ>
+      </E1EDS01>
+   </IDOC>
+</FSHINV01>

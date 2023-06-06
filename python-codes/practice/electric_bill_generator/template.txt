@@ -1,0 +1,24 @@
+                                                ELECTRICITY BILL
+
+    
+	<consumer_name>                                                                                 14th November 2022
+    	<consumer_address>
+	
+
+
+		Total unit used - <unit_used>
+		Load demand 	- <load_demand>
+
+
+	
+                                                                            Total cost of unit used             - <unit_price>
+                                                                            
+									    Fixed charges 			- <fixed_charges>
+                                                                            
+									    Duty Tax 				- <duty_tax>
+                                                                            
+									    Electricity Tax 		        - <electricity_tax>
+	
+
+		Total: <total_cost>
+	
