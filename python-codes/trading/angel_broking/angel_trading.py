@@ -1,8 +1,8 @@
 
-userid='M187024'
-password='2022'
-secret_key='438287645-1363-401f-8d32-f4773767e18c'
-totop_code='22X5MZ74NNGDCDHK5IGOOBWPDA'
+userid=
+password=
+secret_key=
+totop_code=
 
 
 
